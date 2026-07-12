@@ -11,16 +11,42 @@ def list_applications(state: AnalysisState) -> List[Dict[str, Any]]:
     results: List[Dict[str, Any]] = []
     for app in state.applications:
         app_report = state.get_app_report(app["app_id"])
-        risk_info = (app_report or {}).get("Risk Information", {})
-        dep_info = (app_report or {}).get("Dependency Details", {})
+        if app_report:
+            risk_info = app_report.get("Risk Information", {})
+            dep_info = app_report.get("Dependency Details", {})
+            score = risk_info.get("Overall Risk Score", 0)
+            severity = risk_info.get("Risk Category", "Unknown")
+            deps = dep_info.get("Total Dependencies", 0)
+        else:
+            # Rebuild on the fly
+            score = 0
+            severity = "Unknown"
+            if state.risk_engine:
+                try:
+                    app_risk = state.risk_engine.calculate_application_risk(
+                        app_id=app["app_id"],
+                        sbom_graph=state.sbom_graph,
+                        vulnerability_db=state.vulnerability_db,
+                        app_policy=state.app_policy
+                    )
+                    score = app_risk["risk_score"]
+                    severity = app_risk["risk_category"]
+                except Exception:
+                    pass
+            
+            # Dependencies count on the fly
+            direct_deps = state.sbom_graph.get_direct_dependencies(app["app_id"])
+            transitive_deps = state.sbom_graph.get_transitive_dependencies(app["app_id"])
+            deps = len(direct_deps) + len(transitive_deps)
+            
         results.append(
             {
                 "id": app["app_id"],
                 "name": app["app_name"],
                 "owner": app["owner"],
-                "riskScore": risk_info.get("Overall Risk Score", 0),
-                "severity": risk_info.get("Risk Category", "Unknown"),
-                "dependencies": dep_info.get("Total Dependencies", 0),
+                "riskScore": score,
+                "severity": severity,
+                "dependencies": deps,
                 "status": "Analyzed",
             }
         )
@@ -34,17 +60,58 @@ def get_application_detail(state: AnalysisState, app_id: str) -> Optional[Dict[s
         return None
 
     app_report = state.get_app_report(app_id)
-    if not app_report:
-        return None
+    if app_report is None:
+        app_report = {}
 
     risk_info = app_report.get("Risk Information", {})
+    if not risk_info and state.risk_engine:
+        try:
+            app_risk = state.risk_engine.calculate_application_risk(
+                app_id=app_id,
+                sbom_graph=state.sbom_graph,
+                vulnerability_db=state.vulnerability_db,
+                app_policy=state.app_policy
+            )
+            risk_info = {
+                "Overall Risk Score": app_risk["risk_score"],
+                "Risk Category": app_risk["risk_category"],
+            }
+        except Exception:
+            risk_info = {
+                "Overall Risk Score": 0,
+                "Risk Category": "Unknown",
+            }
+
     app_info = app_report.get("Application Information", {})
+    business_crit = app_info.get("Business Criticality", app.get("business_criticality", "Unknown"))
 
     tree = _build_dependency_tree(state, app_id)
     vulns = _build_vulnerabilities(state, app_id)
-    licenses = _build_licenses(app_report)
+    licenses = _build_licenses(state, app_id, app_report)
     maintenance = _build_maintenance(state, app_id, app_report)
     remediation_priority = _build_remediation_priority(state, app["app_name"])
+
+    ai_explanation = app_report.get("AI Risk Explanation", {})
+    if not ai_explanation:
+        ai_explanation = {
+            "Risk Overview": "AI analysis in progress... Please refresh in a few seconds.",
+            "Root Cause": "Analyzing...",
+            "Dependency Chain": "Analyzing...",
+            "Vulnerabilities": "Analyzing...",
+            "License Issues": "Analyzing...",
+            "Maintenance Issues": "Analyzing...",
+            "Business Impact": "Analyzing...",
+            "Technical Impact": "Analyzing...",
+            "Overall Conclusion": "Analyzing..."
+        }
+
+    ai_remediation = app_report.get("AI Remediation Plan", {})
+    if not ai_remediation:
+        ai_remediation = {
+            "Immediate Actions": [{"Why": "AI analysis in progress...", "What": "Analyzing...", "How": "Analyzing...", "Expected benefit": "Analyzing...", "Priority": "Low"}],
+            "Medium-Term Improvements": [],
+            "Long-Term Recommendations": []
+        }
 
     return {
         "id": app_id,
@@ -52,14 +119,14 @@ def get_application_detail(state: AnalysisState, app_id: str) -> Optional[Dict[s
         "riskOverview": {
             "riskScore": risk_info.get("Overall Risk Score", 0),
             "severity": risk_info.get("Risk Category", "Unknown"),
-            "businessCriticality": app_info.get("Business Criticality", "Unknown"),
+            "businessCriticality": business_crit,
         },
         "dependencyTree": tree,
         "vulnerabilities": vulns,
         "licenses": licenses,
         "maintenance": maintenance,
-        "aiExplanation": app_report.get("AI Risk Explanation", {}),
-        "aiRemediation": app_report.get("AI Remediation Plan", {}),
+        "aiExplanation": ai_explanation,
+        "aiRemediation": ai_remediation,
         "remediationPriority": remediation_priority,
     }
 
@@ -113,13 +180,35 @@ def _build_vulnerabilities(state: AnalysisState, app_id: str) -> List[Dict[str, 
     return results
 
 
-def _build_licenses(app_report: Dict[str, Any]) -> List[Dict[str, Any]]:
+def _build_licenses(state: AnalysisState, app_id: str, app_report: Dict[str, Any]) -> List[Dict[str, Any]]:
     findings = app_report.get("License Findings", [])
+    if not findings and state.risk_engine:
+        app_node_id = f"app:{app_id}"
+        import networkx as nx
+        if state.sbom_graph.graph.has_node(app_node_id):
+            try:
+                all_descendants = nx.descendants(state.sbom_graph.graph, app_node_id)
+                for lib_id in all_descendants:
+                    lib_data = state.sbom_graph.graph.nodes[lib_id]
+                    license_name = lib_data.get("license", "Unknown")
+                    eval_lic = state.risk_engine.license_engine.evaluate_compatibility(license_name, state.app_policy)
+                    if eval_lic["status"] in ("Incompatible", "Unknown Legal Status", "Needs Review"):
+                        findings.append({
+                            "library": lib_id.replace("lib:", ""),
+                            "license": license_name,
+                            "status": eval_lic["status"]
+                        })
+            except Exception:
+                pass
+
     results: List[Dict[str, Any]] = []
     for f in findings:
+        lib_name = f.get("library", "")
+        if lib_name.startswith("lib:"):
+            lib_name = lib_name.replace("lib:", "")
         results.append(
             {
-                "library": f.get("library", ""),
+                "library": lib_name,
                 "license": f.get("license", "Unknown"),
                 "compatibility": f.get("status", "Unknown"),
                 "conflictReason": _license_reason(f.get("status", "")),

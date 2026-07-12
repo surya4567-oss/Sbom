@@ -53,23 +53,40 @@ class AnalysisState:
                 self.license_rules,
                 _,
             ) = load_all_data(data_dir)
-            self._rebuild()
+            self._rebuild(async_rebuild=False)
 
-    def _rebuild(self) -> None:
+    def _rebuild(self, async_rebuild: bool = True) -> None:
         """Rebuild graph, engines, and report from current data."""
         self.sbom_graph = SBOMDependencyGraph()
         self.sbom_graph.build_graph(self.applications, self.sbom_dependencies)
         self.license_engine = LicenseCompatibilityEngine(self.license_rules)
         self.risk_engine = WeightedRiskEngine(self.license_engine)
-        self.report = generate_full_report(
-            self.applications,
-            self.sbom_graph,
-            self.vulnerability_db,
-            self.app_policy,
-            self.risk_engine,
-        )
+        
         scan_dates = [app.get("last_scan_date", "") for app in self.applications]
         self.last_scan = max(scan_dates) if scan_dates else datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+        if async_rebuild:
+            # Rebuild report in background thread so caller doesn't wait
+            def run_report_generation():
+                report = generate_full_report(
+                    self.applications,
+                    self.sbom_graph,
+                    self.vulnerability_db,
+                    self.app_policy,
+                    self.risk_engine,
+                )
+                with self._lock:
+                    self.report = report
+
+            threading.Thread(target=run_report_generation, daemon=True).start()
+        else:
+            self.report = generate_full_report(
+                self.applications,
+                self.sbom_graph,
+                self.vulnerability_db,
+                self.app_policy,
+                self.risk_engine,
+            )
 
     def next_app_id(self) -> str:
         self._app_id_counter += 1
@@ -91,7 +108,7 @@ class AnalysisState:
                     [self.sbom_dependencies, dependencies_df],
                     ignore_index=True,
                 )
-            self._rebuild()
+            self._rebuild(async_rebuild=True)
             return app_id
 
     def get_application_by_id(self, app_id: str) -> Optional[Dict[str, Any]]:
