@@ -1,0 +1,108 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:3e0783e6-3b54-4f0e-9a1b-cd8b0ec9c922",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-11T23:40:00Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "generator-maven",
+        "version": "2.7.1"
+      }
+    ],
+    "component": {
+      "bom-ref": "payment-gateway-app",
+      "type": "application",
+      "name": "PaymentGateway",
+      "version": "1.0.0",
+      "description": "Enterprise payment processing gateway",
+      "supplier": {
+        "name": "Financial Services Corp"
+      }
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-core@5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "5.3.18",
+      "description": "Core Spring Framework Utilities",
+      "purl": "pkg:maven/org.springframework/spring-core@5.3.18",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Pivotal Software"
+      }
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+      "type": "library",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-core",
+      "version": "2.14.1",
+      "description": "Apache Log4j Core Library",
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Apache Software Foundation"
+      }
+    },
+    {
+      "bom-ref": "pkg:maven/org.hibernate/hibernate-core@5.6.10.Final",
+      "type": "library",
+      "group": "org.hibernate",
+      "name": "hibernate-core",
+      "version": "5.6.10.Final",
+      "description": "Hibernate Core Library",
+      "purl": "pkg:maven/org.hibernate/hibernate-core@5.6.10.Final",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Red Hat Inc."
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "payment-gateway-app",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-core@5.3.18",
+        "pkg:maven/org.hibernate/hibernate-core@5.6.10.Final"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-core@5.3.18",
+      "dependsOn": [
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.hibernate/hibernate-core@5.6.10.Final",
+      "dependsOn": []
+    }
+  ]
+}

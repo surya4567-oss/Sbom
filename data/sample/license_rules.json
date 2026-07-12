@@ -1,0 +1,255 @@
+[
+  {
+    "license_name": "MIT",
+    "risk_level": "Low",
+    "commercial_use_allowed": true,
+    "copyleft": false,
+    "patent_grant": false,
+    "compatible_with": [
+      "Apache-2.0",
+      "BSD-3-Clause",
+      "BSD-2-Clause",
+      "ISC",
+      "MPL-2.0",
+      "LGPL-2.1",
+      "LGPL-3.0",
+      "GPL-2.0",
+      "GPL-3.0"
+    ],
+    "incompatible_with": []
+  },
+  {
+    "license_name": "Apache-2.0",
+    "risk_level": "Low",
+    "commercial_use_allowed": true,
+    "copyleft": false,
+    "patent_grant": true,
+    "compatible_with": [
+      "MIT",
+      "BSD-3-Clause",
+      "BSD-2-Clause",
+      "ISC",
+      "LGPL-2.1",
+      "LGPL-3.0",
+      "MPL-2.0"
+    ],
+    "incompatible_with": [
+      "GPL-2.0"
+    ]
+  },
+  {
+    "license_name": "BSD-3-Clause",
+    "risk_level": "Low",
+    "commercial_use_allowed": true,
+    "copyleft": false,
+    "patent_grant": false,
+    "compatible_with": [
+      "MIT",
+      "Apache-2.0",
+      "BSD-2-Clause",
+      "ISC",
+      "GPL-2.0",
+      "GPL-3.0",
+      "LGPL-2.1"
+    ],
+    "incompatible_with": []
+  },
+  {
+    "license_name": "BSD-2-Clause",
+    "risk_level": "Low",
+    "commercial_use_allowed": true,
+    "copyleft": false,
+    "patent_grant": false,
+    "compatible_with": [
+      "MIT",
+      "Apache-2.0",
+      "BSD-3-Clause",
+      "ISC",
+      "GPL-2.0",
+      "GPL-3.0"
+    ],
+    "incompatible_with": []
+  },
+  {
+    "license_name": "ISC",
+    "risk_level": "Low",
+    "commercial_use_allowed": true,
+    "copyleft": false,
+    "patent_grant": false,
+    "compatible_with": [
+      "MIT",
+      "Apache-2.0",
+      "BSD-3-Clause",
+      "BSD-2-Clause",
+      "GPL-2.0",
+      "GPL-3.0"
+    ],
+    "incompatible_with": []
+  },
+  {
+    "license_name": "CC0-1.0",
+    "risk_level": "Low",
+    "commercial_use_allowed": true,
+    "copyleft": false,
+    "patent_grant": false,
+    "compatible_with": [
+      "MIT",
+      "Apache-2.0",
+      "BSD-3-Clause",
+      "GPL-2.0",
+      "GPL-3.0"
+    ],
+    "incompatible_with": []
+  },
+  {
+    "license_name": "MPL-2.0",
+    "risk_level": "Medium",
+    "commercial_use_allowed": true,
+    "copyleft": true,
+    "patent_grant": true,
+    "compatible_with": [
+      "MIT",
+      "Apache-2.0",
+      "GPL-2.0",
+      "GPL-3.0",
+      "LGPL-2.1"
+    ],
+    "incompatible_with": [
+      "CDDL-1.0"
+    ]
+  },
+  {
+    "license_name": "LGPL-2.1",
+    "risk_level": "Medium",
+    "commercial_use_allowed": true,
+    "copyleft": true,
+    "patent_grant": false,
+    "compatible_with": [
+      "MIT",
+      "BSD-3-Clause",
+      "MPL-2.0",
+      "Apache-2.0"
+    ],
+    "incompatible_with": [
+      "GPL-3.0"
+    ]
+  },
+  {
+    "license_name": "LGPL-3.0",
+    "risk_level": "Medium",
+    "commercial_use_allowed": true,
+    "copyleft": true,
+    "patent_grant": false,
+    "compatible_with": [
+      "MIT",
+      "BSD-3-Clause",
+      "Apache-2.0",
+      "GPL-3.0"
+    ],
+    "incompatible_with": [
+      "GPL-2.0"
+    ]
+  },
+  {
+    "license_name": "EPL-2.0",
+    "risk_level": "Medium",
+    "commercial_use_allowed": true,
+    "copyleft": true,
+    "patent_grant": true,
+    "compatible_with": [
+      "MIT",
+      "Apache-2.0",
+      "GPL-2.0"
+    ],
+    "incompatible_with": [
+      "GPL-3.0",
+      "AGPL-3.0"
+    ]
+  },
+  {
+    "license_name": "CDDL-1.0",
+    "risk_level": "Medium",
+    "commercial_use_allowed": true,
+    "copyleft": true,
+    "patent_grant": true,
+    "compatible_with": [
+      "MIT"
+    ],
+    "incompatible_with": [
+      "GPL-2.0",
+      "GPL-3.0",
+      "MPL-2.0"
+    ]
+  },
+  {
+    "license_name": "GPL-2.0",
+    "risk_level": "High",
+    "commercial_use_allowed": false,
+    "copyleft": true,
+    "patent_grant": false,
+    "compatible_with": [
+      "MIT",
+      "BSD-3-Clause",
+      "BSD-2-Clause",
+      "ISC"
+    ],
+    "incompatible_with": [
+      "Apache-2.0",
+      "LGPL-3.0",
+      "AGPL-3.0",
+      "EPL-2.0"
+    ]
+  },
+  {
+    "license_name": "GPL-3.0",
+    "risk_level": "High",
+    "commercial_use_allowed": false,
+    "copyleft": true,
+    "patent_grant": true,
+    "compatible_with": [
+      "MIT",
+      "BSD-3-Clause",
+      "LGPL-3.0"
+    ],
+    "incompatible_with": [
+      "Apache-2.0",
+      "LGPL-2.1",
+      "EPL-2.0",
+      "CDDL-1.0"
+    ]
+  },
+  {
+    "license_name": "AGPL-3.0",
+    "risk_level": "Critical",
+    "commercial_use_allowed": false,
+    "copyleft": true,
+    "patent_grant": true,
+    "compatible_with": [
+      "GPL-3.0"
+    ],
+    "incompatible_with": [
+      "MIT",
+      "Apache-2.0",
+      "BSD-3-Clause",
+      "EPL-2.0",
+      "MPL-2.0",
+      "LGPL-2.1",
+      "LGPL-3.0"
+    ]
+  },
+  {
+    "license_name": "UNKNOWN",
+    "risk_level": "Critical",
+    "commercial_use_allowed": false,
+    "copyleft": false,
+    "patent_grant": false,
+    "compatible_with": [],
+    "incompatible_with": [
+      "MIT",
+      "Apache-2.0",
+      "BSD-3-Clause",
+      "GPL-2.0",
+      "GPL-3.0"
+    ]
+  }
+]

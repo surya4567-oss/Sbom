@@ -1,0 +1,152 @@
+[
+  {
+    "app_id": "APP-001",
+    "app_name": "PaymentGateway",
+    "owner": "Sarah Mitchell",
+    "business_unit": "Financial Services",
+    "business_criticality": "Critical",
+    "technology_stack": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "Redis"
+    ],
+    "environment": "Production",
+    "last_scan_date": "2026-06-28"
+  },
+  {
+    "app_id": "APP-002",
+    "app_name": "CustomerPortal",
+    "owner": "James Thornton",
+    "business_unit": "Customer Experience",
+    "business_criticality": "High",
+    "technology_stack": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "environment": "Production",
+    "last_scan_date": "2026-06-30"
+  },
+  {
+    "app_id": "APP-003",
+    "app_name": "InventoryService",
+    "owner": "Priya Nair",
+    "business_unit": "Supply Chain",
+    "business_criticality": "High",
+    "technology_stack": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Celery"
+    ],
+    "environment": "Production",
+    "last_scan_date": "2026-07-01"
+  },
+  {
+    "app_id": "APP-004",
+    "app_name": "HRPlatform",
+    "owner": "David Chen",
+    "business_unit": "Human Resources",
+    "business_criticality": "Medium",
+    "technology_stack": [
+      "C#",
+      ".NET Core",
+      "SQL Server",
+      "Azure"
+    ],
+    "environment": "Production",
+    "last_scan_date": "2026-06-25"
+  },
+  {
+    "app_id": "APP-005",
+    "app_name": "DataAnalyticsPlatform",
+    "owner": "Elena Rodriguez",
+    "business_unit": "Data Science",
+    "business_criticality": "High",
+    "technology_stack": [
+      "Python",
+      "Apache Spark",
+      "Kafka",
+      "S3"
+    ],
+    "environment": "Production",
+    "last_scan_date": "2026-07-02"
+  },
+  {
+    "app_id": "APP-006",
+    "app_name": "APIGateway",
+    "owner": "Marcus Lee",
+    "business_unit": "Platform Engineering",
+    "business_criticality": "Critical",
+    "technology_stack": [
+      "Go",
+      "gRPC",
+      "Redis",
+      "Consul"
+    ],
+    "environment": "Production",
+    "last_scan_date": "2026-07-03"
+  },
+  {
+    "app_id": "APP-007",
+    "app_name": "NotificationService",
+    "owner": "Fatima Al-Hassan",
+    "business_unit": "Engineering",
+    "business_criticality": "Medium",
+    "technology_stack": [
+      "Node.js",
+      "RabbitMQ",
+      "MongoDB",
+      "Redis"
+    ],
+    "environment": "Production",
+    "last_scan_date": "2026-06-20"
+  },
+  {
+    "app_id": "APP-008",
+    "app_name": "AuthService",
+    "owner": "Robert Kline",
+    "business_unit": "Security",
+    "business_criticality": "Critical",
+    "technology_stack": [
+      "Java",
+      "Spring Security",
+      "PostgreSQL",
+      "Vault"
+    ],
+    "environment": "Production",
+    "last_scan_date": "2026-07-05"
+  },
+  {
+    "app_id": "APP-009",
+    "app_name": "ReportingEngine",
+    "owner": "Anita Patel",
+    "business_unit": "Finance",
+    "business_criticality": "High",
+    "technology_stack": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "S3"
+    ],
+    "environment": "Production",
+    "last_scan_date": "2026-06-22"
+  },
+  {
+    "app_id": "APP-010",
+    "app_name": "MobileBackend",
+    "owner": "Kevin Walsh",
+    "business_unit": "Product",
+    "business_criticality": "High",
+    "technology_stack": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Firebase"
+    ],
+    "environment": "Production",
+    "last_scan_date": "2026-07-07"
+  }
+]

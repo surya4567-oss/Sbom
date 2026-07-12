@@ -1,0 +1,359 @@
+# SBOM Software Supply Chain Risk Analyzer – Phase 9 to Phase 14 Development Prompt
+
+## Project Context
+
+The project has already completed the following modules:
+
+* SBOM Upload
+* SBOM Parsing (CycloneDX/SPDX/JSON)
+* Dependency Graph Construction (NetworkX)
+* DFS/BFS Transitive Dependency Resolution
+* Vulnerability Detection
+* License Compatibility Engine
+* Maintenance Risk Engine
+* Risk Score Engine
+
+The Risk Engine already produces a numerical risk score and detailed findings.
+
+Now build the AI Intelligence Layer.
+
+---
+
+# Phase 9 — Risk Context Builder
+
+## Objective
+
+Create a centralized module that combines outputs from every analysis engine into a single structured context object. This context will become the only input passed to all AI modules.
+
+## Input Sources
+
+* Dependency Graph
+* Dependency Paths
+* Vulnerability Engine
+* License Engine
+* Maintenance Engine
+* Risk Engine
+* Application Metadata
+
+## Required Context Fields
+
+For every application include:
+
+* Application Name
+* Business Criticality
+* Owner
+* Total Dependencies
+* Direct Dependencies
+* Transitive Dependencies
+* Dependency Depth
+* Dependency Paths
+* Vulnerable Libraries
+* CVE IDs
+* CVSS Scores
+* Patch Availability
+* Exploit Status (if available)
+* License Information
+* License Conflicts
+* Maintenance Findings
+* Last Updated Date
+* Deprecated Status
+* Bus Factor
+* Overall Risk Score
+* Risk Category
+* Risk Breakdown
+* Top Risk Factors
+
+## Output
+
+Return one standardized JSON object per application.
+
+The context should be reusable by every AI service without additional processing.
+
+---
+
+# Phase 10 — AI Risk Explanation Module
+
+## Objective
+
+Generate human-readable explanations describing why an application received its risk score.
+
+The explanation must include:
+
+* Why the application is risky
+* Which dependency introduced the risk
+* Direct or transitive dependency
+* Dependency chain
+* Vulnerabilities found
+* CVSS severity explanation
+* Business impact
+* Technical impact
+* Why the issue should be fixed
+
+The explanation should avoid simply repeating the risk score.
+
+It should explain the reasoning.
+
+## Prompt Template
+
+System Prompt:
+
+"You are an experienced Software Supply Chain Security Engineer.
+
+Explain the software supply chain risks using only the provided analysis.
+
+Do not invent vulnerabilities.
+
+Explain:
+
+* Root cause
+* Dependency chain
+* Risk severity
+* Business impact
+* Technical impact
+* Why this application received the calculated risk score."
+
+Input:
+
+Pass the complete Risk Context JSON.
+
+Output Structure
+
+* Risk Overview
+* Root Cause
+* Dependency Chain
+* Vulnerabilities
+* License Issues
+* Maintenance Issues
+* Business Impact
+* Technical Impact
+* Overall Conclusion
+
+---
+
+# Phase 11 — AI Remediation Generator
+
+## Objective
+
+Generate actionable remediation plans.
+
+The output should contain:
+
+Immediate Actions
+
+* Upgrade vulnerable libraries
+* Safe versions
+* Remove deprecated libraries
+* Replace incompatible licenses
+* Regenerate SBOM
+* Re-scan application
+
+Medium-Term Improvements
+
+* Dependency upgrades
+* Version alignment
+* License review
+* Maintenance review
+
+Long-Term Recommendations
+
+* Continuous SBOM generation
+* Automated vulnerability scanning
+* CI/CD integration
+* Policy enforcement
+
+Every recommendation should include:
+
+* Priority
+* Reason
+* Estimated Risk Reduction
+* Estimated Effort
+* Dependencies affected
+
+Prompt
+
+"You are a Senior Application Security Engineer.
+
+Generate remediation recommendations based only on the supplied Risk Context.
+
+Provide prioritized remediation steps.
+
+Each recommendation must include:
+
+* Why
+* What
+* How
+* Expected benefit
+* Priority."
+
+---
+
+# Phase 12 — Executive Summary Generator
+
+## Objective
+
+Generate organization-level summaries for security managers.
+
+Input
+
+Results from all applications.
+
+The summary should include:
+
+* Total Applications
+* Critical Applications
+* High Risk Applications
+* Medium Risk Applications
+* Low Risk Applications
+* Total Vulnerabilities
+* Critical CVEs
+* High CVEs
+* License Violations
+* Maintenance Risks
+* Most Common Vulnerabilities
+* Most Common License Issues
+* Most Frequently Used Vulnerable Libraries
+* Overall Organizational Risk
+
+Generate
+
+* Executive Summary
+* Key Findings
+* Top Risks
+* Business Impact
+* Immediate Actions
+* Long-Term Strategy
+
+The summary should be understandable by non-technical managers.
+
+---
+
+# Phase 13 — AI Prioritization Engine
+
+## Objective
+
+The Risk Engine calculates scores.
+
+The AI Prioritization Engine explains which applications should be remediated first.
+
+Prioritization Factors
+
+* Risk Score
+* CVSS
+* Number of Vulnerabilities
+* Critical CVEs
+* Internet Facing
+* Business Criticality
+* Patch Availability
+* License Severity
+* Maintenance Risk
+* Dependency Depth
+
+Generate
+
+Priority List
+
+For every application provide
+
+* Rank
+* Priority
+* Reason
+* Expected Risk Reduction
+* Estimated Fix Effort
+
+Example reasoning:
+
+"Payment System is ranked first because it is Internet-facing, contains a critical remote code execution vulnerability, has a patch available, and supports a business-critical workflow."
+
+---
+
+# Phase 14 — Report Generator
+
+## Objective
+
+Generate the final report consumed by the frontend.
+
+Generate the report in JSON first.
+
+The report should contain:
+
+Application Information
+
+Risk Information
+
+Dependency Tree
+
+Dependency Paths
+
+Vulnerability Details
+
+License Findings
+
+Maintenance Findings
+
+Risk Breakdown
+
+AI Risk Explanation
+
+AI Remediation Plan
+
+Remediation Priority
+
+Executive Summary
+
+Organizational Statistics
+
+Risk Ranking
+
+Recommended Actions
+
+Support exporting the report later as:
+
+* JSON
+* PDF
+* HTML
+
+The report schema should be modular so frontend components can render each section independently.
+
+---
+
+# Folder Structure
+
+```
+ai/
+│
+├── context_builder.py
+├── explanation_service.py
+├── remediation_service.py
+├── executive_summary_service.py
+├── prioritization_service.py
+│
+├── prompts/
+│     explanation_prompt.txt
+│     remediation_prompt.txt
+│     summary_prompt.txt
+│     prioritization_prompt.txt
+│
+└── models.py
+
+reports/
+│
+├── report_generator.py
+├── json_export.py
+├── pdf_export.py
+└── html_export.py
+```
+
+---
+
+# Deliverables
+
+Implement:
+
+1. Risk Context Builder
+2. AI Risk Explanation Service
+3. AI Remediation Service
+4. Executive Summary Service
+5. AI Prioritization Engine
+6. Report Generator
+
+Each module should be independent, reusable, testable, and callable from the backend API. All AI modules must consume the standardized Risk Context rather than querying analysis engines directly. Return structured JSON wherever possible so the frontend can render the information consistently.

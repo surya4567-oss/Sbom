@@ -1,0 +1,501 @@
+app_id,dependency_name,ecosystem,version,latest_version,dependency_type,license,supplier,last_updated
+APP-001,spring-boot-starter-web,Maven,2.7.5,3.2.0,Direct,Apache-2.0,Pivotal Software,2023-11-15
+APP-001,spring-boot-starter-security,Maven,2.7.5,3.2.0,Direct,Apache-2.0,Pivotal Software,2023-11-15
+APP-001,spring-boot-starter-data-jpa,Maven,2.7.5,3.2.0,Direct,Apache-2.0,Pivotal Software,2023-11-15
+APP-001,spring-core,Maven,5.3.18,6.1.4,Transitive,Apache-2.0,Pivotal Software,2024-02-23
+APP-001,spring-security-core,Maven,5.6.5,6.2.2,Transitive,Apache-2.0,Pivotal Software,2024-02-20
+APP-001,log4j-core,Maven,2.14.1,2.23.0,Transitive,Apache-2.0,Apache Software Foundation,2024-01-10
+APP-001,jackson-databind,Maven,2.13.3,2.17.0,Transitive,Apache-2.0,FasterXML LLC,2024-03-01
+APP-001,tomcat-embed-core,Maven,9.0.74,10.1.19,Transitive,Apache-2.0,Apache Software Foundation,2024-01-15
+APP-001,commons-text,Maven,1.9.0,1.12.0,Transitive,Apache-2.0,Apache Software Foundation,2024-02-01
+APP-001,netty-all,Maven,4.1.68,4.1.108,Transitive,Apache-2.0,Netty Project,2024-02-15
+APP-001,snakeyaml,Maven,1.30.0,2.2.0,Transitive,Apache-2.0,Andrey Somov,2023-09-01
+APP-001,hibernate-core,Maven,5.6.10,6.4.4,Direct,LGPL-2.1,Red Hat Inc.,2024-02-10
+APP-001,mysql-connector-java,Maven,8.0.30,8.3.0,Direct,GPL-2.0,Oracle Corporation,2023-12-01
+APP-001,flyway-core,Maven,9.1.6,10.8.1,Direct,Apache-2.0,Redgate Software,2024-01-20
+APP-001,spring-data-redis,Maven,2.7.5,3.2.3,Direct,Apache-2.0,Pivotal Software,2024-01-10
+APP-001,lettuce-core,Maven,6.2.3,6.3.2,Transitive,Apache-2.0,Mark Paluch,2024-01-05
+APP-001,jedis,Maven,3.9.0,5.1.0,Direct,MIT,Redis Labs,2024-02-01
+APP-001,jackson-core,Maven,2.13.3,2.17.0,Transitive,Apache-2.0,FasterXML LLC,2024-03-01
+APP-001,jackson-annotations,Maven,2.13.3,2.17.0,Transitive,Apache-2.0,FasterXML LLC,2024-03-01
+APP-001,spring-webmvc,Maven,5.3.22,6.1.4,Transitive,Apache-2.0,Pivotal Software,2024-02-23
+APP-001,commons-lang3,Maven,3.12.0,3.14.0,Transitive,Apache-2.0,Apache Software Foundation,2024-01-01
+APP-001,guava,Maven,31.1,33.1.0,Transitive,Apache-2.0,Google Inc.,2024-03-01
+APP-001,slf4j-api,Maven,1.7.36,2.0.12,Transitive,MIT,QOS.ch,2024-01-15
+APP-001,logback-classic,Maven,1.2.11,1.5.3,Transitive,LGPL-2.1,QOS.ch,2024-01-10
+APP-001,bcrypt,Maven,0.9.0,0.10.2,Direct,ISC,Spring Security,2023-11-01
+APP-001,spring-boot-starter-actuator,Maven,2.7.5,3.2.0,Direct,Apache-2.0,Pivotal Software,2023-11-15
+APP-001,micrometer-core,Maven,1.9.5,1.12.3,Transitive,Apache-2.0,VMware Inc.,2024-01-25
+APP-001,HikariCP,Maven,5.0.1,5.1.0,Transitive,Apache-2.0,Brett Wooldridge,2024-01-01
+APP-001,spring-tx,Maven,5.3.22,6.1.4,Transitive,Apache-2.0,Pivotal Software,2024-02-23
+APP-001,aspectjweaver,Maven,1.9.9.1,1.9.21.1,Transitive,EPL-2.0,Eclipse Foundation,2024-01-01
+APP-001,jettison,Maven,1.5.2,1.5.4,Transitive,Apache-2.0,Apache Software Foundation,2023-08-01
+APP-001,commons-io,Maven,2.11.0,2.15.1,Transitive,Apache-2.0,Apache Software Foundation,2024-01-20
+APP-001,spring-boot-starter-validation,Maven,2.7.5,3.2.0,Direct,Apache-2.0,Pivotal Software,2023-11-15
+APP-001,hibernate-validator,Maven,6.2.5,8.0.1,Transitive,Apache-2.0,Red Hat Inc.,2024-01-01
+APP-001,xstream,Maven,1.4.19,1.4.20,Transitive,BSD-3-Clause,XStream Project,2022-12-28
+APP-001,joda-time,Maven,2.10.14,2.12.7,Direct,Apache-2.0,Joda.org,2023-12-15
+APP-001,log4j-smtp,Maven,1.2.17,2.23.0,Transitive,UNKNOWN,Apache Software Foundation,2020-01-01
+APP-001,commons-validator,Maven,1.7.0,1.8.0,Direct,Apache-2.0,Apache Software Foundation,2022-09-01
+APP-001,opencsv,Maven,5.7.1,5.9.0,Direct,Apache-2.0,Andrew Rucker Jones,2024-01-01
+APP-001,stripe-java,Maven,22.28.0,25.3.0,Direct,MIT,Stripe Inc.,2024-03-01
+APP-001,spring-retry,Maven,1.3.4,2.0.5,Direct,Apache-2.0,Pivotal Software,2024-01-15
+APP-001,resilience4j-spring-boot2,Maven,1.7.1,2.2.0,Direct,Apache-2.0,resilience4j,2024-01-01
+APP-001,spring-boot-starter-cache,Maven,2.7.5,3.2.0,Direct,Apache-2.0,Pivotal Software,2023-11-15
+APP-001,caffeine,Maven,3.1.2,3.1.8,Transitive,Apache-2.0,Ben Manes,2024-01-15
+APP-001,spring-hateoas,Maven,1.5.4,2.2.0,Direct,Apache-2.0,Pivotal Software,2024-01-01
+APP-001,mapstruct,Maven,1.5.3,1.5.5,Direct,Apache-2.0,MapStruct Authors,2024-01-01
+APP-001,lombok,Maven,1.18.24,1.18.32,Direct,MIT,Reinier Zwitserloot,2024-01-01
+APP-001,spring-cloud-starter-sleuth,Maven,3.1.5,3.1.11,Direct,Apache-2.0,Pivotal Software,2023-06-01
+APP-001,spring-cloud-function-context,Maven,3.2.2,4.1.0,Transitive,Apache-2.0,Pivotal Software,2024-01-01
+APP-001,spring-expression,Maven,5.3.23,6.1.4,Transitive,Apache-2.0,Pivotal Software,2024-02-23
+APP-002,react,npm,18.2.0,18.3.0,Direct,MIT,Meta Platforms Inc.,2024-04-25
+APP-002,react-dom,npm,18.2.0,18.3.0,Direct,MIT,Meta Platforms Inc.,2024-04-25
+APP-002,react-router-dom,npm,6.8.2,6.22.3,Direct,MIT,Remix Software,2024-03-01
+APP-002,axios,npm,0.21.1,1.6.8,Direct,MIT,Axios Contributors,2024-03-01
+APP-002,lodash,npm,4.17.20,4.17.21,Direct,MIT,Lodash Contributors,2021-02-15
+APP-002,moment,npm,2.29.1,2.30.1,Direct,MIT,Moment.js Contributors,2024-01-01
+APP-002,express,npm,4.17.1,4.18.3,Transitive,MIT,TJ Holowaychuk,2024-01-30
+APP-002,jsonwebtoken,npm,8.5.1,9.0.2,Direct,MIT,Auth0 Inc.,2023-01-01
+APP-002,node-fetch,npm,2.6.5,3.3.2,Transitive,MIT,Node Fetch Contributors,2024-01-10
+APP-002,semver,npm,5.7.1,7.6.0,Transitive,ISC,Isaac Schlueter,2024-01-15
+APP-002,follow-redirects,npm,1.14.8,1.15.6,Transitive,MIT,RubenVerborgh,2024-01-02
+APP-002,minimist,npm,1.2.5,1.2.8,Transitive,MIT,Substack,2022-03-17
+APP-002,word-wrap,npm,1.2.3,1.2.5,Transitive,MIT,Jon Schlinkert,2023-06-22
+APP-002,webpack,npm,5.74.0,5.90.3,Direct,MIT,Webpack Contributors,2024-01-15
+APP-002,babel-traverse,npm,7.20.12,7.24.1,Transitive,MIT,Babel Contributors,2024-03-05
+APP-002,typescript,npm,4.9.4,5.4.3,Direct,Apache-2.0,Microsoft Corporation,2024-03-22
+APP-002,eslint,npm,8.32.0,8.57.0,Direct,MIT,OpenJS Foundation,2024-01-12
+APP-002,prettier,npm,2.8.3,3.2.5,Direct,UNKNOWN,Prettier Contributors,2024-03-01
+APP-002,jest,npm,29.3.1,29.7.0,Direct,GPL-3.0,OpenJS Foundation,2023-10-05
+APP-002,dotenv,npm,16.0.3,16.4.5,Direct,GPL-3.0,Scott Motte,2024-02-15
+APP-002,uuid,npm,9.0.0,9.0.1,Direct,UNKNOWN,Various Contributors,2023-11-01
+APP-002,date-fns,npm,2.29.3,3.6.0,Direct,AGPL-3.0,date-fns Contributors,2024-02-20
+APP-002,tailwindcss,npm,3.2.7,3.4.3,Direct,GPL-3.0,Tailwind Labs Inc.,2024-03-07
+APP-002,vite,npm,4.0.4,5.2.7,Direct,GPL-3.0,VoidZero Inc.,2024-03-20
+APP-002,chart.js,npm,4.2.0,4.4.2,Direct,GPL-3.0,Chart.js Contributors,2024-01-15
+APP-002,redux,npm,4.2.1,5.0.1,Direct,UNKNOWN,Dan Abramov,2024-02-01
+APP-002,react-query,npm,3.39.3,5.28.6,Direct,GPL-3.0,Tanner Linsley,2024-03-01
+APP-002,formik,npm,2.2.9,2.4.5,Direct,Apache-2.0,Jared Palmer,2022-09-23
+APP-002,yup,npm,1.0.0,1.4.0,Direct,UNKNOWN,Jason Quense,2024-01-15
+APP-002,zod,npm,3.20.2,3.22.4,Direct,UNKNOWN,Colin McDonnell,2024-01-01
+APP-002,socket.io-client,npm,4.5.4,4.7.4,Direct,UNKNOWN,Guillermo Rauch,2024-01-10
+APP-002,i18next,npm,22.4.9,23.10.1,Direct,GPL-3.0,i18next Contributors,2024-03-01
+APP-002,react-i18next,npm,12.1.5,14.1.0,Direct,UNKNOWN,i18next Contributors,2024-03-01
+APP-002,storybook,npm,7.0.0,8.0.6,Direct,AGPL-3.0,Storybook Contributors,2024-03-19
+APP-002,pg,npm,8.9.0,8.11.3,Direct,GPL-3.0,Brian Carlson,2024-01-01
+APP-002,pg-pool,npm,3.6.0,3.6.1,Transitive,MIT,Brian Carlson,2024-01-01
+APP-002,serialize-javascript,npm,3.1.0,6.0.2,Transitive,BSD-3-Clause,Eric Ferraiuolo,2022-07-01
+APP-002,handlebars,npm,4.7.6,4.7.8,Transitive,MIT,Yehuda Katz,2023-01-01
+APP-002,minimatch,npm,3.0.4,9.0.4,Transitive,ISC,Isaac Schlueter,2024-01-01
+APP-002,glob-parent,npm,5.1.1,6.0.1,Transitive,ISC,Elan Shanker,2023-01-01
+APP-002,json5,npm,2.2.1,2.2.3,Transitive,MIT,Aseem Kishore,2023-01-01
+APP-002,ws,npm,7.4.5,8.17.0,Transitive,MIT,Einar Otto Stangvik,2024-01-01
+APP-002,ip,npm,1.1.8,2.0.1,Transitive,MIT,Fedor Indutny,2022-01-01
+APP-002,nconf,npm,0.12.0,0.12.1,Transitive,MIT,Flatiron School,2022-04-14
+APP-002,async,npm,2.6.3,3.2.5,Transitive,MIT,Caolan McMahon,2023-01-01
+APP-002,rimraf,npm,3.0.2,5.0.5,Direct,GPL-3.0,Isaac Schlueter,2023-09-01
+APP-002,cross-env,npm,7.0.3,7.0.3,Direct,MIT,Kent C. Dodds,2022-01-01
+APP-002,morgan,npm,1.10.0,1.10.0,Direct,MIT,TJ Holowaychuk,2021-06-01
+APP-002,compression,npm,1.7.4,1.7.4,Direct,MIT,TJ Holowaychuk,2019-03-01
+APP-002,cookie-parser,npm,1.4.6,1.4.7,Direct,GPL-3.0,TJ Holowaychuk,2023-06-01
+APP-003,Django,PyPI,3.2.8,5.0.3,Direct,BSD-3-Clause,Django Software Foundation,2024-01-07
+APP-003,djangorestframework,PyPI,3.14.0,3.15.1,Direct,GPL-3.0,Tom Christie,2024-03-01
+APP-003,celery,PyPI,5.2.7,5.3.6,Direct,GPL-3.0,Ask Solem,2024-01-15
+APP-003,redis,PyPI,4.3.4,5.0.3,Direct,UNKNOWN,Redis Ltd.,2024-03-01
+APP-003,psycopg2,PyPI,2.9.5,2.9.9,Direct,LGPL-3.0,Federico Di Gregorio,2024-01-15
+APP-003,requests,PyPI,2.25.0,2.31.0,Direct,Apache-2.0,Python Software Foundation,2024-02-01
+APP-003,Pillow,PyPI,8.2.0,10.3.0,Direct,HPND,Alex Clark,2024-01-01
+APP-003,PyYAML,PyPI,5.3.1,6.0.1,Direct,MIT,Kirill Simonov,2023-07-18
+APP-003,cryptography,PyPI,3.3.1,42.0.5,Direct,Apache-2.0,Python Cryptographic Authority,2024-03-01
+APP-003,sqlparse,PyPI,0.4.3,0.5.0,Transitive,BSD-3-Clause,Andi Albrecht,2024-04-01
+APP-003,aiohttp,PyPI,3.7.4,3.9.4,Direct,Apache-2.0,aiohttp Contributors,2024-05-02
+APP-003,pydantic,PyPI,1.10.5,2.6.4,Direct,UNKNOWN,Samuel Colvin,2024-03-01
+APP-003,boto3,PyPI,1.26.90,1.34.62,Direct,GPL-3.0,Amazon Web Services,2024-03-01
+APP-003,botocore,PyPI,1.29.90,1.34.62,Transitive,Apache-2.0,Amazon Web Services,2024-03-01
+APP-003,urllib3,PyPI,1.26.12,2.2.1,Transitive,MIT,Andrey Petrov,2024-06-17
+APP-003,setuptools,PyPI,65.4.0,69.2.0,Transitive,MIT,Python Packaging Authority,2024-02-01
+APP-003,numpy,PyPI,1.24.2,1.26.4,Direct,UNKNOWN,NumPy Contributors,2024-02-01
+APP-003,pandas,PyPI,1.5.3,2.2.1,Direct,GPL-3.0,Pandas Contributors,2024-01-21
+APP-003,gunicorn,PyPI,20.1.0,21.2.0,Direct,UNKNOWN,Benoît Chesneau,2023-08-30
+APP-003,whitenoise,PyPI,6.3.0,6.6.0,Direct,UNKNOWN,David Evans,2024-01-01
+APP-003,django-cors-headers,PyPI,3.14.0,4.3.1,Direct,UNKNOWN,Adam Johnson,2024-02-01
+APP-003,django-filter,PyPI,22.1,24.1,Direct,UNKNOWN,Alex Gaynor,2024-01-01
+APP-003,django-environ,PyPI,0.9.0,0.11.2,Direct,AGPL-3.0,django-environ Contributors,2023-09-19
+APP-003,dj-database-url,PyPI,1.2.0,2.1.0,Direct,GPL-3.0,Kenneth Reitz,2024-01-01
+APP-003,pytz,PyPI,2022.7.1,2024.1,Transitive,MIT,Stuart Bishop,2024-02-10
+APP-003,six,PyPI,1.16.0,1.16.0,Transitive,MIT,Benjamin Peterson,2021-04-14
+APP-003,certifi,PyPI,2022.12.7,2024.2.2,Transitive,MPL-2.0,Kenneth Reitz,2024-02-17
+APP-003,charset-normalizer,PyPI,3.0.1,3.3.2,Transitive,MIT,Ahmed TAHRI,2024-01-01
+APP-003,idna,PyPI,3.4.0,3.6.0,Transitive,BSD-3-Clause,Kim Davies,2024-01-01
+APP-003,click,PyPI,8.1.3,8.1.7,Transitive,BSD-3-Clause,Armin Ronacher,2023-11-01
+APP-003,kombu,PyPI,5.2.4,5.3.5,Transitive,BSD-3-Clause,Ask Solem,2024-02-01
+APP-003,vine,PyPI,5.0.0,5.1.0,Transitive,BSD-3-Clause,Ask Solem,2023-06-01
+APP-003,billiard,PyPI,3.6.4.0,4.2.0,Transitive,BSD-3-Clause,Ask Solem,2024-01-15
+APP-003,amqp,PyPI,5.1.1,5.2.0,Transitive,BSD-3-Clause,Ask Solem,2023-12-01
+APP-003,django-celery-beat,PyPI,2.4.0,2.6.0,Direct,AGPL-3.0,Celery Project,2024-01-01
+APP-003,django-celery-results,PyPI,2.4.0,2.5.1,Direct,UNKNOWN,Celery Project,2023-09-01
+APP-003,factory-boy,PyPI,3.2.1,3.3.0,Direct,AGPL-3.0,Raphaël Barrois,2023-09-01
+APP-003,Faker,PyPI,15.3.4,24.3.0,Direct,GPL-3.0,joke2k,2024-03-01
+APP-003,coverage,PyPI,7.1.0,7.4.4,Direct,GPL-3.0,Ned Batchelder,2024-03-01
+APP-003,pytest-django,PyPI,4.5.2,4.8.0,Direct,UNKNOWN,Andreas Pelme,2024-01-01
+APP-003,model-bakery,PyPI,1.10.1,1.12.0,Direct,AGPL-3.0,model-bakery Contributors,2024-01-01
+APP-003,Markdown,PyPI,3.4.1,3.6.0,Direct,AGPL-3.0,John Gruber,2024-03-01
+APP-003,ipython,PyPI,7.31.1,8.22.2,Direct,BSD-3-Clause,IPython Development Team,2024-02-23
+APP-003,PyJWT,PyPI,1.7.1,2.8.0,Transitive,MIT,José Padilla,2024-01-25
+APP-003,python-dateutil,PyPI,2.8.2,2.9.0,Transitive,Apache-2.0,Gustavo Niemeyer,2024-02-01
+APP-003,packaging,PyPI,21.3.0,24.0,Transitive,Apache-2.0,Python Packaging Authority,2024-03-01
+APP-003,py,PyPI,1.11.0,1.11.0,Transitive,MIT,pytest Contributors,2022-10-16
+APP-003,asgiref,PyPI,3.6.0,3.8.0,Transitive,BSD-3-Clause,Django Software Foundation,2024-03-01
+APP-003,sqlalchemy,PyPI,1.4.18,2.0.28,Transitive,MIT,SQLAlchemy Contributors,2024-03-01
+APP-003,pyOpenSSL,PyPI,22.0.0,24.1.0,Transitive,Apache-2.0,Python Cryptographic Authority,2024-02-01
+APP-004,Microsoft.AspNetCore.Mvc,NuGet,6.0.10,8.0.3,Direct,AGPL-3.0,Microsoft Corporation,2024-02-13
+APP-004,Microsoft.AspNetCore.Http,NuGet,6.0.10,8.0.3,Direct,MIT,Microsoft Corporation,2024-02-13
+APP-004,Microsoft.AspNetCore.Authentication.JwtBearer,NuGet,6.0.10,8.0.3,Direct,MIT,Microsoft Corporation,2024-02-13
+APP-004,Newtonsoft.Json,NuGet,12.0.3,13.0.3,Direct,MIT,James Newton-King,2024-01-03
+APP-004,Microsoft.AspNetCore.Authentication.OpenIdConnect,NuGet,7.0.8,8.0.3,Direct,MIT,Microsoft Corporation,2024-02-13
+APP-004,System.Security.Cryptography.Xml,NuGet,6.0.0,8.0.0,Transitive,MIT,Microsoft Corporation,2024-02-13
+APP-004,Microsoft.EntityFrameworkCore.SqlServer,NuGet,6.0.10,8.0.3,Direct,MIT,Microsoft Corporation,2023-04-12
+APP-004,Microsoft.EntityFrameworkCore,NuGet,6.0.10,8.0.3,Transitive,MIT,Microsoft Corporation,2024-02-13
+APP-004,AutoMapper,NuGet,12.0.1,13.0.1,Direct,MIT,Jimmy Bogard,2023-04-12
+APP-004,AutoMapper.Extensions.Microsoft.DependencyInjection,NuGet,12.0.1,13.0.1,Direct,MIT,Jimmy Bogard,2023-04-12
+APP-004,Serilog,NuGet,2.12.0,3.1.1,Direct,Apache-2.0,Serilog Contributors,2023-04-12
+APP-004,Serilog.AspNetCore,NuGet,6.1.0,8.0.1,Direct,Apache-2.0,Serilog Contributors,2023-04-12
+APP-004,Serilog.Sinks.ApplicationInsights,NuGet,4.0.0,4.0.0,Transitive,Apache-2.0,Serilog Contributors,2023-07-01
+APP-004,Microsoft.ApplicationInsights.AspNetCore,NuGet,2.21.0,2.22.0,Direct,MIT,Microsoft Corporation,2023-04-12
+APP-004,Azure.Identity,NuGet,1.8.2,1.10.4,Direct,MIT,Microsoft Corporation,2023-04-12
+APP-004,Azure.Security.KeyVault.Secrets,NuGet,4.4.0,4.6.0,Direct,MIT,Microsoft Corporation,2023-04-12
+APP-004,Azure.Storage.Blobs,NuGet,12.14.1,12.20.0,Direct,MIT,Microsoft Corporation,2023-04-12
+APP-004,FluentValidation,NuGet,11.4.0,11.9.0,Direct,Apache-2.0,Jeremy Skinner,2023-04-12
+APP-004,Dapper,NuGet,2.0.123,2.1.28,Direct,Apache-2.0,StackExchange,2023-04-12
+APP-004,Microsoft.Data.SqlClient,NuGet,5.0.2,5.2.0,Transitive,MIT,Microsoft Corporation,2024-01-01
+APP-004,StackExchange.Redis,NuGet,2.6.96,2.7.33,Direct,MIT,StackExchange,2023-04-12
+APP-004,MediatR,NuGet,12.0.1,12.2.0,Direct,Apache-2.0,Jimmy Bogard,2023-04-12
+APP-004,Swashbuckle.AspNetCore,NuGet,6.5.0,6.7.3,Direct,BSD-3-Clause,Swagger Tooling,2023-04-12
+APP-004,Microsoft.AspNetCore.Http.Connections,NuGet,3.1.24,8.0.3,Transitive,MIT,Microsoft Corporation,2024-02-13
+APP-004,Polly,NuGet,7.2.3,8.3.0,Direct,BSD-3-Clause,Michael Wolfenden,2023-04-12
+APP-004,NodaTime,NuGet,3.1.9,3.1.11,Direct,Apache-2.0,Jon Skeet,2023-04-12
+APP-004,Humanizer,NuGet,2.14.1,2.14.1,Direct,MIT,Mehdi Khalili,2022-01-01
+APP-004,CsvHelper,NuGet,30.0.1,33.0.1,Direct,MS-PL,Josh Close,2024-02-01
+APP-004,Bogus,NuGet,34.0.2,35.3.0,Direct,MIT,Brian Chavez,2023-04-12
+APP-004,xunit,NuGet,2.4.2,2.7.0,Direct,Apache-2.0,xUnit.net,2024-02-01
+APP-004,Moq,NuGet,4.18.4,4.20.70,Direct,BSD-3-Clause,Daniel Cazzulino,2024-01-01
+APP-004,FluentAssertions,NuGet,6.10.0,6.12.0,Direct,Apache-2.0,Dennis Doomen,2024-01-01
+APP-004,Microsoft.Extensions.Caching.StackExchangeRedis,NuGet,6.0.10,8.0.3,Direct,MIT,Microsoft Corporation,2024-02-13
+APP-004,Microsoft.Identity.Web,NuGet,1.25.10,2.16.1,Direct,MIT,Microsoft Corporation,2024-03-01
+APP-004,System.Text.RegularExpressions,NuGet,4.3.1,8.0.0,Transitive,MIT,Microsoft Corporation,2024-01-01
+APP-004,ClosedXML,NuGet,0.102.1,0.102.2,Direct,MIT,ClosedXML Contributors,2023-09-01
+APP-004,iTextSharp,NuGet,5.5.13,5.5.13,Direct,AGPL-3.0,iText Group NV,2020-06-01
+APP-004,System.Text.Json,NuGet,7.0.3,8.0.3,Transitive,MIT,Microsoft Corporation,2024-02-13
+APP-004,Microsoft.IdentityModel.JsonWebTokens,NuGet,7.0.3,8.0.1,Transitive,MIT,Microsoft Corporation,2024-01-09
+APP-004,Hangfire,NuGet,1.8.6,1.8.12,Direct,LGPL-3.0,Sergey Odinokov,2024-02-01
+APP-004,DocumentFormat.OpenXml,NuGet,2.20.0,3.0.1,Direct,MIT,Microsoft Corporation,2024-03-01
+APP-004,Quartz.NET,NuGet,3.6.3,3.8.1,Direct,Apache-2.0,Quartz.NET,2024-01-25
+APP-004,System.Formats.Asn1,NuGet,7.0.0,8.0.1,Transitive,MIT,Microsoft Corporation,2024-07-09
+APP-004,Microsoft.Extensions.Logging,NuGet,6.0.0,8.0.0,Transitive,MIT,Microsoft Corporation,2024-02-13
+APP-004,Microsoft.Extensions.DependencyInjection,NuGet,6.0.0,8.0.0,Transitive,MIT,Microsoft Corporation,2024-02-13
+APP-004,Microsoft.Extensions.Configuration,NuGet,6.0.0,8.0.0,Transitive,MIT,Microsoft Corporation,2024-02-13
+APP-004,Npgsql,NuGet,6.0.11,8.0.3,Direct,PostgreSQL,Npgsql Contributors,2024-02-15
+APP-004,EPPlus,NuGet,5.8.14,7.2.1,Direct,LicenseRef-Polyform-NonCommercial,EPPlus Software AB,2024-03-01
+APP-004,Microsoft.AspNetCore.SignalR,NuGet,1.1.0,8.0.3,Direct,Apache-2.0,Microsoft Corporation,2022-05-11
+APP-004,Newtonsoft.Json.Bson,NuGet,1.0.2,1.0.3,Transitive,MIT,James Newton-King,2021-01-01
+APP-005,pyspark,PyPI,3.3.1,3.5.1,Direct,Apache-2.0,Apache Software Foundation,2024-02-01
+APP-005,numpy,PyPI,1.23.5,1.26.4,Direct,BSD-3-Clause,NumPy Contributors,2024-02-01
+APP-005,pandas,PyPI,1.5.3,2.2.1,Direct,BSD-3-Clause,Pandas Contributors,2024-01-21
+APP-005,scipy,PyPI,1.10.1,1.12.0,Direct,BSD-3-Clause,SciPy Contributors,2024-02-15
+APP-005,scikit-learn,PyPI,1.2.1,1.4.1.post1,Direct,BSD-3-Clause,scikit-learn Contributors,2024-02-05
+APP-005,matplotlib,PyPI,3.7.0,3.8.3,Direct,HPND,Matplotlib Contributors,2024-02-26
+APP-005,Pillow,PyPI,9.4.0,10.3.0,Direct,HPND,Alex Clark,2024-01-01
+APP-005,kafka-python,PyPI,2.0.2,2.0.2,Direct,Apache-2.0,Dana Powers,2022-01-01
+APP-005,confluent-kafka,PyPI,2.0.2,2.3.0,Direct,Apache-2.0,Confluent Inc.,2024-02-01
+APP-005,boto3,PyPI,1.26.90,1.34.62,Direct,Apache-2.0,Amazon Web Services,2024-03-01
+APP-005,s3fs,PyPI,2023.1.0,2024.3.1,Direct,BSD-3-Clause,s3fs Contributors,2024-03-01
+APP-005,pyarrow,PyPI,11.0.0,15.0.2,Direct,Apache-2.0,Apache Software Foundation,2024-03-14
+APP-005,fastparquet,PyPI,2023.2.0,2024.2.0,Direct,Apache-2.0,fastparquet Contributors,2024-02-01
+APP-005,delta-spark,PyPI,2.3.0,3.1.0,Direct,Apache-2.0,Linux Foundation,2024-03-01
+APP-005,mlflow,PyPI,2.1.1,2.11.1,Direct,Apache-2.0,Databricks Inc.,2024-03-01
+APP-005,optuna,PyPI,3.1.0,3.6.1,Direct,MIT,Preferred Networks Inc.,2024-03-01
+APP-005,xgboost,PyPI,1.7.3,2.0.3,Direct,Apache-2.0,DMLC Contributors,2024-01-01
+APP-005,lightgbm,PyPI,3.3.5,4.3.0,Direct,MIT,Microsoft Corporation,2024-02-01
+APP-005,plotly,PyPI,5.13.0,5.20.0,Direct,MIT,Plotly Inc.,2024-03-01
+APP-005,PyYAML,PyPI,5.4.1,6.0.1,Direct,MIT,Kirill Simonov,2023-07-18
+APP-005,requests,PyPI,2.28.2,2.31.0,Direct,Apache-2.0,Python Software Foundation,2024-02-01
+APP-005,urllib3,PyPI,1.26.14,2.2.1,Transitive,MIT,Andrey Petrov,2024-06-17
+APP-005,cryptography,PyPI,38.0.4,42.0.5,Transitive,Apache-2.0,Python Cryptographic Authority,2024-03-01
+APP-005,paramiko,PyPI,2.12.0,3.4.0,Direct,LGPL-2.1,Jeff Forcier,2024-01-23
+APP-005,fabric,PyPI,2.7.1,3.2.2,Direct,BSD-2-Clause,Jeff Forcier,2023-08-01
+APP-005,ipython,PyPI,8.10.0,8.22.2,Direct,BSD-3-Clause,IPython Development Team,2024-02-23
+APP-005,jupyter,PyPI,1.0.0,1.0.0,Direct,BSD-3-Clause,Project Jupyter,2022-06-01
+APP-005,trino,PyPI,0.320.0,0.328.0,Direct,Apache-2.0,Trino Project,2024-03-01
+APP-005,great-expectations,PyPI,0.16.5,0.18.12,Direct,Apache-2.0,Superconductive Inc.,2024-03-01
+APP-005,dask,PyPI,2023.1.0,2024.3.1,Direct,BSD-3-Clause,Dask Contributors,2024-03-01
+APP-005,distributed,PyPI,2023.1.0,2024.3.1,Transitive,BSD-3-Clause,Dask Contributors,2024-03-01
+APP-005,networkx,PyPI,3.0.0,3.2.1,Direct,BSD-3-Clause,NetworkX Developers,2024-01-21
+APP-005,statsmodels,PyPI,0.13.5,0.14.1,Direct,BSD-3-Clause,statsmodels Contributors,2024-01-05
+APP-005,sqlalchemy,PyPI,1.4.46,2.0.28,Direct,MIT,SQLAlchemy Contributors,2024-03-01
+APP-005,alembic,PyPI,1.9.2,1.13.1,Transitive,MIT,Mike Bayer,2024-02-07
+APP-005,pyspark-stubs,PyPI,3.0.0.post3,3.0.0.post3,Direct,Apache-2.0,Community,2021-11-01
+APP-005,setuptools,PyPI,65.7.0,69.2.0,Transitive,MIT,Python Packaging Authority,2024-02-01
+APP-005,py4j,PyPI,0.10.9.5,0.10.9.7,Transitive,BSD-3-Clause,Barthelemy Dagenais,2023-06-01
+APP-005,attrs,PyPI,22.2.0,23.2.0,Transitive,MIT,Hynek Schlawack,2024-01-05
+APP-005,typing-extensions,PyPI,4.5.0,4.10.0,Transitive,UNKNOWN,Python Software Foundation,2024-01-01
+APP-005,multiprocess,PyPI,0.70.14,0.70.16,Transitive,BSD-3-Clause,Mike McKerns,2023-11-01
+APP-005,pydantic,PyPI,1.10.7,2.6.4,Direct,MIT,Samuel Colvin,2024-03-01
+APP-005,tenacity,PyPI,8.2.2,8.2.3,Transitive,Apache-2.0,Julien Danjou,2023-08-01
+APP-005,pyOpenSSL,PyPI,22.1.0,24.1.0,Transitive,Apache-2.0,Python Cryptographic Authority,2024-02-01
+APP-005,grpcio,PyPI,1.51.3,1.62.1,Direct,Apache-2.0,gRPC Authors,2024-03-01
+APP-005,protobuf,PyPI,4.22.1,4.25.3,Direct,BSD-3-Clause,Google Inc.,2024-01-10
+APP-005,joblib,PyPI,1.2.0,1.3.2,Transitive,BSD-3-Clause,Joblib Developers,2023-10-01
+APP-005,fsspec,PyPI,2023.1.0,2024.3.1,Transitive,BSD-3-Clause,Martin Durant,2024-03-01
+APP-005,PyJWT,PyPI,2.4.0,2.8.0,Transitive,MIT,José Padilla,2024-01-25
+APP-005,pip,PyPI,23.0.1,24.0,Transitive,MIT,Python Packaging Authority,2024-02-03
+APP-006,github.com/gin-gonic/gin,Go,1.7.4,1.9.1,Direct,MIT,Gin Contributors,2023-06-09
+APP-006,golang.org/x/net,Go,0.1.0,0.22.0,Direct,BSD-3-Clause,Go Authors,2024-03-05
+APP-006,golang.org/x/sys,Go,0.0.24,0.18.0,Transitive,BSD-3-Clause,Go Authors,2024-03-05
+APP-006,github.com/gorilla/mux,Go,1.8.0,1.8.1,Direct,BSD-3-Clause,Gorilla Web Toolkit,2022-11-07
+APP-006,github.com/gorilla/websocket,Go,1.4.2,1.5.1,Direct,BSD-2-Clause,Gorilla Web Toolkit,2023-06-19
+APP-006,github.com/spf13/viper,Go,1.14.0,1.18.2,Direct,MIT,Steve Francia,2023-10-01
+APP-006,github.com/spf13/cobra,Go,1.6.1,1.8.0,Direct,Apache-2.0,Steve Francia,2024-01-01
+APP-006,github.com/sirupsen/logrus,Go,1.9.0,1.9.3,Direct,MIT,Sirupsen,2023-05-30
+APP-006,github.com/hashicorp/consul/api,Go,1.18.0,1.28.2,Direct,MPL-2.0,HashiCorp Inc.,2024-03-01
+APP-006,github.com/go-redis/redis/v9,Go,9.0.2,9.5.1,Direct,BSD-2-Clause,Redis Contributors,2024-03-01
+APP-006,google.golang.org/grpc,Go,1.52.0,1.62.1,Direct,Apache-2.0,gRPC Authors,2024-03-01
+APP-006,github.com/stretchr/testify,Go,1.8.2,1.9.0,Direct,MIT,Stretchr Inc.,2024-02-01
+APP-006,github.com/prometheus/client_golang,Go,1.14.0,1.19.0,Direct,Apache-2.0,Prometheus Authors,2024-03-01
+APP-006,go.opentelemetry.io/otel,Go,1.11.2,1.24.0,Direct,Apache-2.0,OpenTelemetry Authors,2024-02-08
+APP-006,go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc,Go,0.36.4,0.49.0,Transitive,Apache-2.0,OpenTelemetry Authors,2024-02-08
+APP-006,golang.org/x/net,Go,0.14.0,0.22.0,Transitive,BSD-3-Clause,Go Authors,2024-03-05
+APP-006,github.com/gorm-io/gorm,Go,1.25.1,1.25.8,Direct,MIT,GORM Contributors,2024-03-01
+APP-006,github.com/dgrijalva/jwt-go,Go,3.2.0+incompatible,4.5.0,Direct,MIT,Dave Grijalva,2021-01-01
+APP-006,github.com/golang-jwt/jwt,Go,3.2.2+incompatible,5.2.1,Direct,MIT,JWT Go Contributors,2024-02-28
+APP-006,github.com/google/uuid,Go,1.3.0,1.6.0,Direct,BSD-3-Clause,Google Inc.,2024-01-31
+APP-006,github.com/hashicorp/go-retryablehttp,Go,0.7.2,0.7.6,Transitive,MPL-2.0,HashiCorp Inc.,2024-02-01
+APP-006,github.com/rs/zerolog,Go,1.28.0,1.32.0,Direct,MIT,rs/zerolog Contributors,2024-02-01
+APP-006,github.com/pkg/errors,Go,0.9.1,0.9.1,Transitive,BSD-2-Clause,Dave Cheney,2021-02-01
+APP-006,golang.org/x/crypto,Go,0.6.0,0.21.0,Transitive,BSD-3-Clause,Go Authors,2024-03-05
+APP-006,github.com/shopspring/decimal,Go,1.3.1,1.3.1,Direct,MIT,shopspring,2022-08-01
+APP-006,github.com/go-playground/validator/v10,Go,10.11.2,10.19.0,Transitive,MIT,Dean Karn,2024-02-01
+APP-006,github.com/cenkalti/backoff/v4,Go,4.2.0,4.3.0,Transitive,MIT,Cenk Altı,2024-01-01
+APP-006,github.com/mitchellh/mapstructure,Go,1.5.0,1.5.0,Transitive,MIT,Mitchell Hashimoto,2022-04-29
+APP-006,github.com/gin-contrib/sse,Go,0.1.0,0.1.0,Transitive,MIT,Gin Contributors,2019-11-01
+APP-006,golang-stdlib,Go,1.21.3,1.22.2,Direct,BSD-3-Clause,Go Authors,2024-04-03
+APP-006,github.com/ugorji/go/codec,Go,1.2.11,1.2.12,Transitive,MIT,Ugorji Nwoke,2024-01-01
+APP-006,github.com/jackc/pgx/v5,Go,5.3.1,5.5.5,Direct,MIT,Jack Christensen,2024-02-01
+APP-006,github.com/go-sql-driver/mysql,Go,1.7.0,1.8.1,Direct,MPL-2.0,Go MySQL Driver Contributors,2024-03-01
+APP-006,github.com/lib/pq,Go,1.10.7,1.10.9,Direct,MIT,lib/pq Contributors,2024-01-01
+APP-006,github.com/jmoiron/sqlx,Go,1.3.5,1.3.5,Direct,MIT,Jason Moiron,2022-01-14
+APP-006,github.com/go-chi/chi/v5,Go,5.0.8,5.0.12,Direct,MIT,Peter Kieltyka,2024-02-01
+APP-006,github.com/spf13/cast,Go,1.5.1,1.6.0,Transitive,MIT,Steve Francia,2023-12-01
+APP-006,github.com/hashicorp/go-cleanhttp,Go,0.5.2,0.5.2,Transitive,MPL-2.0,HashiCorp Inc.,2021-08-01
+APP-006,github.com/andybalholm/brotli,Go,1.0.5,1.1.0,Transitive,MIT,Andy Balholm,2023-11-01
+APP-006,github.com/klauspost/compress,Go,1.15.15,1.17.7,Transitive,Apache-2.0,Klaus Post,2024-01-28
+APP-006,golang.org/x/text,Go,0.7.0,0.14.0,Transitive,BSD-3-Clause,Go Authors,2024-01-10
+APP-006,github.com/bytedance/sonic,Go,1.8.5,1.11.3,Transitive,Apache-2.0,Bytedance Ltd.,2024-02-01
+APP-006,github.com/chenzhuoyu/base64x,Go,0.0.0-20221115062448,0.0.0-20230717121745,Transitive,MIT,chenzhuoyu,2023-07-17
+APP-006,github.com/twitchyliquid64/golang-asm,Go,0.15.1,0.15.1,Transitive,MIT,TwitchyLiquid64,2020-10-01
+APP-006,github.com/leodido/go-urn,Go,1.2.3,1.4.0,Transitive,MIT,leodido,2024-01-01
+APP-006,github.com/pelletier/go-toml/v2,Go,2.0.6,2.2.0,Transitive,MIT,Thomas Pelletier,2024-02-01
+APP-006,github.com/subosito/gotenv,Go,1.4.2,1.6.0,Transitive,MIT,Alif Rachmawadi,2024-01-01
+APP-006,github.com/fsnotify/fsnotify,Go,1.6.0,1.7.0,Transitive,BSD-3-Clause,fsnotify Authors,2024-01-01
+APP-006,github.com/magiconair/properties,Go,1.8.7,1.8.7,Transitive,BSD-2-Clause,Frank Schroeder,2022-06-01
+APP-006,github.com/spf13/pflag,Go,1.0.5,1.0.5,Transitive,BSD-3-Clause,Steve Francia,2021-04-23
+APP-007,express,npm,4.17.3,4.18.3,Direct,MIT,TJ Holowaychuk,2024-01-30
+APP-007,amqplib,npm,0.10.3,0.10.4,Direct,MIT,RabbitMQ Contributors,2023-10-01
+APP-007,mongoose,npm,6.9.2,8.2.3,Direct,MIT,Automattic Inc.,2024-03-07
+APP-007,ioredis,npm,5.3.1,5.3.2,Direct,MIT,Zijian He,2024-01-15
+APP-007,nodemailer,npm,6.9.1,6.9.12,Direct,MIT,Andris Reinman,2024-02-01
+APP-007,twilio,npm,4.7.2,5.0.4,Direct,MIT,Twilio Inc.,2024-03-01
+APP-007,firebase-admin,npm,11.5.0,12.0.0,Direct,Apache-2.0,Google Inc.,2024-03-01
+APP-007,bull,npm,4.10.4,4.12.2,Direct,MIT,OptimalBits,2024-02-01
+APP-007,moment,npm,2.29.3,2.30.1,Direct,MIT,Moment.js Contributors,2024-01-01
+APP-007,lodash,npm,4.17.21,4.17.21,Transitive,MIT,Lodash Contributors,2021-02-15
+APP-007,axios,npm,1.5.0,1.6.8,Direct,MIT,Axios Contributors,2024-03-01
+APP-007,jsonwebtoken,npm,8.5.1,9.0.2,Direct,MIT,Auth0 Inc.,2023-01-01
+APP-007,dotenv,npm,16.0.3,16.4.5,Direct,BSD-2-Clause,Scott Motte,2024-02-15
+APP-007,uuid,npm,9.0.0,9.0.1,Direct,MIT,Various Contributors,2023-11-01
+APP-007,cors,npm,2.8.5,2.8.5,Direct,MIT,Troy Goode,2020-04-01
+APP-007,helmet,npm,7.0.0,7.1.0,Direct,MIT,Adam Baldwin,2024-01-01
+APP-007,morgan,npm,1.10.0,1.10.0,Direct,MIT,TJ Holowaychuk,2021-06-01
+APP-007,body-parser,npm,1.20.1,1.20.2,Direct,MIT,TJ Holowaychuk,2024-01-15
+APP-007,compression,npm,1.7.4,1.7.4,Direct,MIT,TJ Holowaychuk,2019-03-01
+APP-007,pug,npm,3.0.2,3.0.3,Direct,MIT,TJ Holowaychuk,2024-01-01
+APP-007,ejs,npm,3.1.9,3.1.10,Direct,Apache-2.0,TJ Holowaychuk,2024-01-01
+APP-007,handlebars,npm,4.7.7,4.7.8,Direct,MIT,Yehuda Katz,2023-01-01
+APP-007,node-schedule,npm,2.1.1,2.1.1,Direct,MIT,Matt Patenaude,2022-11-01
+APP-007,winston,npm,3.8.2,3.13.0,Direct,MIT,Charlie Robbins,2024-03-01
+APP-007,pino,npm,8.11.0,8.21.0,Direct,MIT,Pino Contributors,2024-02-15
+APP-007,jest,npm,29.4.3,29.7.0,Direct,MIT,OpenJS Foundation,2023-10-05
+APP-007,supertest,npm,6.3.3,7.0.0,Direct,MIT,TJ Holowaychuk,2024-03-01
+APP-007,nodemon,npm,3.0.2,3.1.0,Direct,MIT,Remy Sharp,2024-03-01
+APP-007,semver,npm,7.3.8,7.6.0,Transitive,ISC,Isaac Schlueter,2024-01-15
+APP-007,follow-redirects,npm,1.15.3,1.15.6,Transitive,MIT,RubenVerborgh,2024-01-02
+APP-007,minimist,npm,1.2.6,1.2.8,Transitive,MIT,Substack,2022-04-01
+APP-007,tough-cookie,npm,4.1.2,4.1.4,Transitive,BSD-3-Clause,GoInstant Inc.,2023-07-01
+APP-007,ws,npm,8.12.0,8.17.0,Transitive,MIT,Einar Otto Stangvik,2024-01-01
+APP-007,async,npm,3.2.4,3.2.5,Transitive,MIT,Caolan McMahon,2023-06-01
+APP-007,mime,npm,3.0.0,4.0.1,Transitive,MIT,Robert Kieffer,2024-01-01
+APP-007,on-finished,npm,2.4.1,2.4.1,Transitive,MIT,TJ Holowaychuk,2022-01-01
+APP-007,path-to-regexp,npm,0.1.7,8.1.0,Transitive,MIT,TJ Holowaychuk,2022-01-01
+APP-007,depd,npm,2.0.0,2.0.0,Transitive,MIT,Douglas Christopher Wilson,2021-12-19
+APP-007,accepts,npm,1.3.8,1.3.8,Transitive,MIT,TJ Holowaychuk,2021-07-01
+APP-007,finalhandler,npm,1.2.0,1.2.0,Transitive,MIT,Douglas Christopher Wilson,2022-07-15
+APP-007,protobufjs,npm,7.2.2,7.2.6,Direct,BSD-3-Clause,Protocol Buffers,2024-01-01
+APP-007,ip,npm,2.0.0,2.0.1,Transitive,MIT,Fedor Indutny,2022-01-01
+APP-007,glob-parent,npm,6.0.2,6.0.2,Transitive,ISC,Elan Shanker,2023-01-01
+APP-007,chokidar,npm,3.5.3,3.6.0,Transitive,MIT,Paul Miller,2024-01-01
+APP-007,terser,npm,5.14.1,5.30.2,Transitive,BSD-2-Clause,Mihai Bazon,2024-03-01
+APP-007,loader-utils,npm,2.0.2,2.0.4,Transitive,MIT,Tobias Koppers,2023-01-01
+APP-007,ssri,npm,8.0.0,10.0.5,Transitive,ISC,Kat Marchán,2024-01-01
+APP-007,json-schema,npm,0.4.0,0.4.0,Transitive,UNKNOWN,Kris Zyp,2020-04-01
+APP-007,ansi-colors,npm,4.1.3,4.1.3,Transitive,MIT,Brian Woodward,2022-01-01
+APP-007,nconf,npm,0.11.0,0.12.1,Direct,MIT,Flatiron School,2021-06-01
+APP-008,spring-boot-starter-security,Maven,3.0.5,3.2.3,Direct,Apache-2.0,Pivotal Software,2024-02-01
+APP-008,spring-security-core,Maven,6.0.3,6.2.2,Direct,Apache-2.0,Pivotal Software,2024-02-20
+APP-008,spring-security-web,Maven,5.7.4,6.2.2,Transitive,Apache-2.0,Pivotal Software,2024-02-20
+APP-008,spring-boot-starter-oauth2-resource-server,Maven,3.0.5,3.2.3,Direct,Apache-2.0,Pivotal Software,2024-02-01
+APP-008,spring-boot-starter-oauth2-client,Maven,3.0.5,3.2.3,Direct,Apache-2.0,Pivotal Software,2024-02-01
+APP-008,spring-core,Maven,6.0.7,6.1.5,Transitive,Apache-2.0,Pivotal Software,2024-03-20
+APP-008,nimbus-jose-jwt,Maven,9.30.2,9.37.2,Direct,Apache-2.0,Connect2id Ltd.,2024-03-01
+APP-008,spring-vault-core,Maven,2.3.3,3.0.4,Direct,Apache-2.0,Pivotal Software,2024-01-15
+APP-008,vault-java-driver,Maven,5.1.0,5.1.0,Transitive,Apache-2.0,BetterCloud Inc.,2021-09-01
+APP-008,postgresql,Maven,42.5.4,42.7.3,Direct,BSD-2-Clause,PostgreSQL Global Development Group,2024-02-19
+APP-008,spring-data-jpa,Maven,3.0.4,3.2.3,Direct,Apache-2.0,Pivotal Software,2024-02-01
+APP-008,hibernate-core,Maven,6.1.7,6.4.4,Transitive,LGPL-2.1,Red Hat Inc.,2024-02-10
+APP-008,jackson-databind,Maven,2.14.2,2.17.0,Transitive,Apache-2.0,FasterXML LLC,2024-03-01
+APP-008,log4j-core,Maven,2.20.0,2.23.0,Transitive,Apache-2.0,Apache Software Foundation,2024-01-10
+APP-008,HikariCP,Maven,5.0.1,5.1.0,Transitive,Apache-2.0,Brett Wooldridge,2024-01-01
+APP-008,spring-boot-starter-actuator,Maven,3.0.5,3.2.3,Direct,Apache-2.0,Pivotal Software,2024-02-01
+APP-008,micrometer-core,Maven,1.10.5,1.12.4,Transitive,Apache-2.0,VMware Inc.,2024-01-25
+APP-008,spring-session-data-redis,Maven,3.0.2,3.2.2,Direct,Apache-2.0,Pivotal Software,2024-01-15
+APP-008,lettuce-core,Maven,6.2.3,6.3.2,Transitive,Apache-2.0,Mark Paluch,2024-01-05
+APP-008,jjwt-api,Maven,0.11.5,0.12.5,Direct,Apache-2.0,Les Hazlewood,2024-01-01
+APP-008,jjwt-impl,Maven,0.11.5,0.12.5,Transitive,Apache-2.0,Les Hazlewood,2024-01-01
+APP-008,jjwt-jackson,Maven,0.11.5,0.12.5,Transitive,Apache-2.0,Les Hazlewood,2024-01-01
+APP-008,spring-boot-starter-data-jpa,Maven,3.0.5,3.2.3,Direct,Apache-2.0,Pivotal Software,2024-02-01
+APP-008,spring-retry,Maven,2.0.0,2.0.5,Direct,Apache-2.0,Pivotal Software,2024-01-15
+APP-008,resilience4j-spring-boot3,Maven,2.0.2,2.2.0,Direct,Apache-2.0,resilience4j,2024-01-01
+APP-008,snakeyaml,Maven,2.0.0,2.2.0,Transitive,Apache-2.0,Andrey Somov,2023-09-01
+APP-008,commons-lang3,Maven,3.12.0,3.14.0,Transitive,Apache-2.0,Apache Software Foundation,2024-01-01
+APP-008,guava,Maven,32.0.0,33.1.0,Transitive,Apache-2.0,Google Inc.,2024-03-01
+APP-008,bcrypt,Maven,0.10.2,0.10.2,Direct,ISC,Spring Security,2023-11-01
+APP-008,spring-security-test,Maven,6.0.3,6.2.2,Direct,Apache-2.0,Pivotal Software,2024-02-20
+APP-008,lombok,Maven,1.18.26,1.18.32,Direct,MIT,Reinier Zwitserloot,2024-01-01
+APP-008,mapstruct,Maven,1.5.3,1.5.5,Direct,Apache-2.0,MapStruct Authors,2024-01-01
+APP-008,spring-boot-starter-validation,Maven,3.0.5,3.2.3,Direct,Apache-2.0,Pivotal Software,2024-02-01
+APP-008,spring-security-crypto,Maven,6.0.3,6.2.2,Transitive,Apache-2.0,Pivotal Software,2024-02-20
+APP-008,spring-tx,Maven,6.0.7,6.1.5,Transitive,Apache-2.0,Pivotal Software,2024-03-20
+APP-008,spring-aop,Maven,6.0.7,6.1.5,Transitive,Apache-2.0,Pivotal Software,2024-03-20
+APP-008,spring-context,Maven,6.0.7,6.1.5,Transitive,Apache-2.0,Pivotal Software,2024-03-20
+APP-008,spring-beans,Maven,6.0.7,6.1.5,Transitive,Apache-2.0,Pivotal Software,2024-03-20
+APP-008,slf4j-api,Maven,2.0.7,2.0.12,Transitive,MIT,QOS.ch,2024-01-15
+APP-008,tomcat-embed-core,Maven,10.1.7,10.1.19,Transitive,Apache-2.0,Apache Software Foundation,2024-01-15
+APP-008,commons-text,Maven,1.10.0,1.12.0,Transitive,Apache-2.0,Apache Software Foundation,2024-02-01
+APP-008,logback-classic,Maven,1.4.6,1.5.3,Transitive,LGPL-2.1,QOS.ch,2024-01-10
+APP-008,spring-web,Maven,6.0.7,6.1.5,Transitive,Apache-2.0,Pivotal Software,2024-02-23
+APP-008,commons-collections4,Maven,4.4.0,4.4.0,Transitive,Apache-2.0,Apache Software Foundation,2019-11-01
+APP-008,netty-codec,Maven,4.1.86,4.1.108,Transitive,Apache-2.0,Netty Project,2024-02-15
+APP-008,spring-security-config,Maven,6.0.3,6.2.2,Transitive,Apache-2.0,Pivotal Software,2024-02-20
+APP-008,spring-security-oauth2-core,Maven,6.0.3,6.2.2,Transitive,Apache-2.0,Pivotal Software,2024-02-20
+APP-008,spring-security-oauth2-jose,Maven,6.0.3,6.2.2,Transitive,Apache-2.0,Pivotal Software,2024-02-20
+APP-008,com.google.guava:guava,Maven,30.0-jre,33.1.0-jre,Transitive,Apache-2.0,Google Inc.,2024-03-01
+APP-008,snakeyaml,Maven,1.33.0,2.2.0,Transitive,Apache-2.0,Andrey Somov,2023-01-01
+APP-009,fastapi,PyPI,0.95.0,0.110.1,Direct,MIT,Sebastián Ramírez,2024-03-15
+APP-009,uvicorn,PyPI,0.21.1,0.29.0,Direct,BSD-3-Clause,Encode,2024-03-01
+APP-009,pydantic,PyPI,1.10.7,2.6.4,Direct,MIT,Samuel Colvin,2024-03-01
+APP-009,SQLAlchemy,PyPI,2.0.7,2.0.28,Direct,MIT,SQLAlchemy Contributors,2024-03-01
+APP-009,alembic,PyPI,1.10.3,1.13.1,Direct,MIT,Mike Bayer,2024-02-07
+APP-009,asyncpg,PyPI,0.27.0,0.29.0,Direct,Apache-2.0,magicstack,2024-02-01
+APP-009,boto3,PyPI,1.26.100,1.34.62,Direct,Apache-2.0,Amazon Web Services,2024-03-01
+APP-009,pandas,PyPI,2.0.0,2.2.1,Direct,BSD-3-Clause,Pandas Contributors,2024-01-21
+APP-009,openpyxl,PyPI,3.1.1,3.1.2,Direct,MIT,openpyxl Contributors,2023-10-01
+APP-009,reportlab,PyPI,3.6.12,4.1.0,Direct,BSD-3-Clause,ReportLab Inc.,2024-01-15
+APP-009,Pillow,PyPI,9.5.0,10.3.0,Direct,HPND,Alex Clark,2024-01-01
+APP-009,requests,PyPI,2.29.0,2.31.0,Direct,Apache-2.0,Python Software Foundation,2024-02-01
+APP-009,PyJWT,PyPI,2.6.0,2.8.0,Direct,MIT,José Padilla,2024-01-25
+APP-009,cryptography,PyPI,40.0.1,42.0.5,Direct,Apache-2.0,Python Cryptographic Authority,2024-03-01
+APP-009,python-multipart,PyPI,0.0.6,0.0.9,Direct,Apache-2.0,Andrew Dunstan,2024-02-01
+APP-009,httpx,PyPI,0.24.0,0.27.0,Direct,BSD-3-Clause,Encode,2024-03-01
+APP-009,celery,PyPI,5.3.0,5.3.6,Direct,BSD-3-Clause,Ask Solem,2024-01-15
+APP-009,redis,PyPI,4.5.4,5.0.3,Direct,MIT,Redis Ltd.,2024-03-01
+APP-009,jinja2,PyPI,3.1.2,3.1.3,Direct,BSD-3-Clause,Armin Ronacher,2024-01-10
+APP-009,weasyprint,PyPI,58.1,62.1,Direct,BSD-3-Clause,Kozea,2024-03-01
+APP-009,PyYAML,PyPI,6.0.0,6.0.1,Direct,MIT,Kirill Simonov,2023-07-18
+APP-009,gunicorn,PyPI,20.1.0,21.2.0,Direct,MIT,Benoît Chesneau,2023-08-30
+APP-009,pytest,PyPI,7.3.1,8.1.1,Direct,MIT,pytest Contributors,2024-03-01
+APP-009,pytest-asyncio,PyPI,0.21.0,0.23.6,Direct,Apache-2.0,Tin Tvrtkovic,2024-03-01
+APP-009,httpretty,PyPI,1.1.4,1.1.4,Direct,MIT,Gabriel Falcao,2023-01-01
+APP-009,bleach,PyPI,6.0.0,6.1.0,Direct,Apache-2.0,Mozilla Foundation,2023-08-22
+APP-009,python-docx,PyPI,0.8.11,1.1.0,Direct,MIT,Steve Canny,2024-02-01
+APP-009,xlsxwriter,PyPI,3.0.9,3.2.0,Direct,BSD-2-Clause,John McNamara,2024-01-01
+APP-009,paramiko,PyPI,3.1.0,3.4.0,Direct,LGPL-2.1,Jeff Forcier,2024-01-23
+APP-009,Pygments,PyPI,2.15.0,2.17.2,Transitive,BSD-2-Clause,Georg Brandl,2024-01-13
+APP-009,aiofiles,PyPI,23.1.0,23.2.1,Direct,Apache-2.0,Tin Tvrtkovic,2023-11-07
+APP-009,chardet,PyPI,5.1.0,5.2.0,Transitive,LGPL-2.1,Mark Pilgrim,2023-08-01
+APP-009,urllib3,PyPI,1.26.18,2.2.1,Transitive,MIT,Andrey Petrov,2024-06-17
+APP-009,certifi,PyPI,2023.5.7,2024.2.2,Transitive,MPL-2.0,Kenneth Reitz,2024-02-17
+APP-009,python-dotenv,PyPI,1.0.0,1.0.1,Direct,BSD-3-Clause,Saurabh Kumar,2024-01-07
+APP-009,starlette,PyPI,0.27.0,0.37.2,Transitive,BSD-3-Clause,Tom Christie,2024-03-01
+APP-009,click,PyPI,8.1.3,8.1.7,Transitive,BSD-3-Clause,Armin Ronacher,2023-11-01
+APP-009,pytz,PyPI,2023.3,2024.1,Transitive,MIT,Stuart Bishop,2024-02-10
+APP-009,six,PyPI,1.16.0,1.16.0,Transitive,MIT,Benjamin Peterson,2021-04-14
+APP-009,idna,PyPI,3.4.0,3.6.0,Transitive,BSD-3-Clause,Kim Davies,2024-01-01
+APP-009,packaging,PyPI,23.1.0,24.0,Transitive,Apache-2.0,Python Packaging Authority,2024-03-01
+APP-009,attrs,PyPI,23.1.0,23.2.0,Transitive,MIT,Hynek Schlawack,2024-01-05
+APP-009,anyio,PyPI,3.7.0,4.3.0,Transitive,MIT,Alex Grönholm,2024-02-29
+APP-009,sniffio,PyPI,1.3.0,1.3.1,Transitive,MIT,Nathaniel J. Smith,2023-10-01
+APP-009,typing-extensions,PyPI,4.6.3,4.10.0,Transitive,UNKNOWN,Python Software Foundation,2024-01-01
+APP-009,setuptools,PyPI,67.7.2,69.2.0,Transitive,MIT,Python Packaging Authority,2024-02-01
+APP-009,h11,PyPI,0.14.0,0.14.0,Transitive,MIT,Nathaniel J. Smith,2023-05-01
+APP-009,greenlet,PyPI,2.0.2,3.0.3,Transitive,MIT,Armin Rigo,2024-01-05
+APP-009,PyPDF2,PyPI,3.0.1,3.0.1,Direct,BSD-3-Clause,Mathieu Fenniak,2023-03-01
+APP-009,UNKNOWN-analytics-lib,PyPI,1.2.0,1.2.0,Direct,UNKNOWN,Internal,2021-06-01
+APP-010,express,npm,4.18.1,4.18.3,Direct,MIT,TJ Holowaychuk,2024-01-30
+APP-010,mongoose,npm,7.2.4,8.2.3,Direct,MIT,Automattic Inc.,2024-03-07
+APP-010,firebase-admin,npm,11.10.1,12.0.0,Direct,Apache-2.0,Google Inc.,2024-03-01
+APP-010,jsonwebtoken,npm,9.0.0,9.0.2,Direct,MIT,Auth0 Inc.,2023-01-01
+APP-010,axios,npm,1.6.0,1.6.8,Direct,MIT,Axios Contributors,2024-03-01
+APP-010,lodash,npm,4.17.21,4.17.21,Direct,MIT,Lodash Contributors,2021-02-15
+APP-010,dotenv,npm,16.3.1,16.4.5,Direct,BSD-2-Clause,Scott Motte,2024-02-15
+APP-010,multer,npm,1.4.5,1.4.5-lts.1,Direct,MIT,LinusU,2023-01-01
+APP-010,sharp,npm,0.32.6,0.33.3,Direct,Apache-2.0,Lovell Fuller,2024-03-01
+APP-010,uuid,npm,9.0.0,9.0.1,Direct,MIT,Various Contributors,2023-11-01
+APP-010,joi,npm,17.9.2,17.12.2,Direct,BSD-3-Clause,Sideway Inc.,2024-02-01
+APP-010,helmet,npm,7.1.0,7.1.0,Direct,MIT,Adam Baldwin,2024-01-01
+APP-010,cors,npm,2.8.5,2.8.5,Direct,MIT,Troy Goode,2020-04-01
+APP-010,rate-limiter-flexible,npm,2.4.2,5.0.3,Direct,ISC,Animir,2024-03-01
+APP-010,compression,npm,1.7.4,1.7.4,Direct,MIT,TJ Holowaychuk,2019-03-01
+APP-010,morgan,npm,1.10.0,1.10.0,Direct,MIT,TJ Holowaychuk,2021-06-01
+APP-010,pino,npm,8.15.1,8.21.0,Direct,MIT,Pino Contributors,2024-02-15
+APP-010,nodemailer,npm,6.9.7,6.9.12,Direct,MIT,Andris Reinman,2024-02-01
+APP-010,twilio,npm,4.19.0,5.0.4,Direct,MIT,Twilio Inc.,2024-03-01
+APP-010,stripe,npm,12.18.0,15.3.0,Direct,MIT,Stripe Inc.,2024-03-01
+APP-010,socket.io,npm,4.6.2,4.7.4,Direct,MIT,Guillermo Rauch,2024-01-10
+APP-010,redis,npm,4.6.7,4.6.13,Direct,MIT,Brian Noguchi,2024-02-01
+APP-010,ioredis,npm,5.3.2,5.3.2,Transitive,MIT,Zijian He,2024-01-15
+APP-010,jest,npm,29.6.4,29.7.0,Direct,MIT,OpenJS Foundation,2023-10-05
+APP-010,supertest,npm,6.3.4,7.0.0,Direct,MIT,TJ Holowaychuk,2024-03-01
+APP-010,eslint,npm,8.49.0,8.57.0,Direct,MIT,OpenJS Foundation,2024-01-12
+APP-010,nodemon,npm,3.0.1,3.1.0,Direct,MIT,Remy Sharp,2024-03-01
+APP-010,bcryptjs,npm,2.4.3,2.4.3,Direct,MIT,Dominik Passerini,2021-01-01
+APP-010,passport,npm,0.6.0,0.7.0,Direct,MIT,Jared Hanson,2023-06-01
+APP-010,passport-jwt,npm,4.0.1,4.0.1,Direct,MIT,Thiago Rodrigues,2022-10-01
+APP-010,passport-local,npm,1.0.0,1.0.0,Transitive,MIT,Jared Hanson,2017-08-25
+APP-010,semver,npm,7.5.1,7.6.0,Transitive,ISC,Isaac Schlueter,2024-01-15
+APP-010,follow-redirects,npm,1.15.4,1.15.6,Transitive,MIT,RubenVerborgh,2024-01-02
+APP-010,minimist,npm,1.2.7,1.2.8,Transitive,MIT,Substack,2022-04-01
+APP-010,tough-cookie,npm,4.1.3,4.1.4,Transitive,BSD-3-Clause,GoInstant Inc.,2023-07-01
+APP-010,ip,npm,1.1.9,2.0.1,Transitive,MIT,Fedor Indutny,2022-01-01
+APP-010,glob-parent,npm,6.0.2,6.0.2,Transitive,ISC,Elan Shanker,2023-01-01
+APP-010,ws,npm,8.14.2,8.17.0,Transitive,MIT,Einar Otto Stangvik,2024-01-01
+APP-010,async,npm,3.2.5,3.2.5,Transitive,MIT,Caolan McMahon,2023-06-01
+APP-010,mime,npm,3.0.0,4.0.1,Transitive,MIT,Robert Kieffer,2024-01-01
+APP-010,busboy,npm,1.6.0,1.6.0,Transitive,MIT,Brian White,2022-07-01
+APP-010,cookie,npm,0.5.0,0.6.0,Transitive,MIT,Roman Shtylman,2023-12-01
+APP-010,methods,npm,1.1.2,1.1.2,Transitive,MIT,TJ Holowaychuk,2021-01-01
+APP-010,vary,npm,1.1.2,1.1.2,Transitive,MIT,TJ Holowaychuk,2017-09-23
+APP-010,negotiator,npm,0.6.3,0.6.3,Transitive,MIT,TJ Holowaychuk,2022-07-01
+APP-010,bson,npm,5.4.0,6.4.0,Transitive,Apache-2.0,MongoDB Inc.,2024-02-01
+APP-010,sparse-bitfield,npm,3.0.3,3.0.3,Transitive,MIT,Mathias Buus,2020-01-01
+APP-010,get-func-name,npm,2.0.1,2.0.2,Transitive,MIT,Chai.js Contributors,2024-01-01
+APP-010,loader-utils,npm,3.2.0,3.2.1,Transitive,MIT,Tobias Koppers,2023-01-01
+APP-010,json-schema,npm,0.4.0,0.4.0,Transitive,UNKNOWN,Kris Zyp,2020-04-01

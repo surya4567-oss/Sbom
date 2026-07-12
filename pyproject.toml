@@ -1,0 +1,19 @@
+[project]
+name = "sbomriskanalyzer"
+version = "0.1.0"
+description = "SBOM Software Supply Chain Risk Analyzer"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "python-multipart>=0.0.12",
+    "pandas>=2.2.0",
+    "networkx>=3.4.0",
+    "packaging>=24.0",
+    "pydantic>=2.9.0",
+    "matplotlib>=3.11.0",
+]
+
+[project.scripts]
+sbom-api = "backend.api.main:run"

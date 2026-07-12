@@ -1,0 +1,501 @@
+app_id,dependency_name,version,risk_status,risk_type,severity,explanation
+APP-001,spring-boot-starter-web,2.7.5,Risky,Vulnerability,High,Version 2.7.5 is affected by CVE-2025-10177 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,spring-boot-starter-security,2.7.5,Risky,Vulnerability,High,Version 2.7.5 is affected by CVE-2025-10178 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,spring-boot-starter-data-jpa,2.7.5,Risky,Vulnerability,High,Version 2.7.5 is affected by CVE-2025-10179 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,spring-core,5.3.18,Risky,Vulnerability,Critical,Version 5.3.18 is affected by CVE-2022-22965 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-001,spring-security-core,5.6.5,Risky,Vulnerability,Critical,Version 5.6.5 is affected by CVE-2022-31692 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-001,log4j-core,2.14.1,Risky,Vulnerability,Critical,Version 2.14.1 is affected by CVE-2021-44228 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-001,jackson-databind,2.13.3,Risky,Vulnerability,High,Version 2.13.3 is affected by CVE-2022-42003 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,tomcat-embed-core,9.0.74,Risky,Vulnerability,High,Version 9.0.74 is affected by CVE-2023-46589 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,commons-text,1.9.0,Risky,Transitive,Critical,Transitive dependency affected by CVE-2022-42889 (severity: Critical). Risk is inherited through the dependency chain.
+APP-001,netty-all,4.1.68,Risky,Transitive,Medium,Transitive dependency affected by CVE-2021-43797 (severity: Medium). Risk is inherited through the dependency chain.
+APP-001,snakeyaml,1.30.0,Risky,Vulnerability,Critical,Version 1.30.0 is affected by CVE-2022-1471 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-001,hibernate-core,5.6.10,Risky,License,Medium,LGPL-2.1 requires sharing source code modifications in commercial applications.
+APP-001,mysql-connector-java,8.0.30,Risky,License,Medium,GPL-2.0 is incompatible with proprietary commercial applications.
+APP-001,flyway-core,9.1.6,Risky,Vulnerability,High,Version 9.1.6 is affected by CVE-2025-10180 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,spring-data-redis,2.7.5,Risky,Vulnerability,High,Version 2.7.5 is affected by CVE-2025-10181 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,lettuce-core,6.2.3,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10154 (severity: High). Risk is inherited through the dependency chain.
+APP-001,jedis,3.9.0,Risky,Vulnerability,High,Version 3.9.0 is affected by CVE-2025-10182 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,jackson-core,2.13.3,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10155 (severity: High). Risk is inherited through the dependency chain.
+APP-001,jackson-annotations,2.13.3,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10156 (severity: High). Risk is inherited through the dependency chain.
+APP-001,spring-webmvc,5.3.22,Risky,Vulnerability,Critical,Version 5.3.22 is affected by CVE-2023-20860 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-001,commons-lang3,3.12.0,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10157 (severity: High). Risk is inherited through the dependency chain.
+APP-001,guava,31.1,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10158 (severity: High). Risk is inherited through the dependency chain.
+APP-001,slf4j-api,1.7.36,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10159 (severity: High). Risk is inherited through the dependency chain.
+APP-001,logback-classic,1.2.11,Risky,License,Medium,LGPL-2.1 copyleft requires modifications to be open-sourced.
+APP-001,bcrypt,0.9.0,Risky,Vulnerability,High,Version 0.9.0 is affected by CVE-2025-10183 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,spring-boot-starter-actuator,2.7.5,Risky,Vulnerability,High,Version 2.7.5 is affected by CVE-2025-10184 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,micrometer-core,1.9.5,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10160 (severity: High). Risk is inherited through the dependency chain.
+APP-001,HikariCP,5.0.1,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10161 (severity: High). Risk is inherited through the dependency chain.
+APP-001,spring-tx,5.3.22,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10162 (severity: High). Risk is inherited through the dependency chain.
+APP-001,aspectjweaver,1.9.9.1,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10163 (severity: High). Risk is inherited through the dependency chain.
+APP-001,jettison,1.5.2,Risky,Vulnerability,High,Version 1.5.2 is affected by CVE-2023-1436 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,commons-io,2.11.0,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10164 (severity: High). Risk is inherited through the dependency chain.
+APP-001,spring-boot-starter-validation,2.7.5,Risky,Vulnerability,High,Version 2.7.5 is affected by CVE-2025-10185 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,hibernate-validator,6.2.5,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10165 (severity: High). Risk is inherited through the dependency chain.
+APP-001,xstream,1.4.19,Risky,Unmaintained,Low,Library xstream has not received updates in over 2 years (last updated: 2022-12-28). May contain unpatched security issues.
+APP-001,joda-time,2.10.14,Risky,Unmaintained,Low,Library joda-time has not received updates in over 2 years (last updated: 2023-12-15). May contain unpatched security issues.
+APP-001,log4j-smtp,1.2.17,Risky,License,Medium,Unknown license cannot be used in commercial proprietary software.
+APP-001,commons-validator,1.7.0,Risky,Unmaintained,Low,Library commons-validator has not received updates in over 2 years (last updated: 2022-09-01). May contain unpatched security issues.
+APP-001,opencsv,5.7.1,Risky,Vulnerability,High,Version 5.7.1 is affected by CVE-2025-10186 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,stripe-java,22.28.0,Risky,Vulnerability,High,Version 22.28.0 is affected by CVE-2025-10187 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,spring-retry,1.3.4,Risky,Vulnerability,High,Version 1.3.4 is affected by CVE-2025-10188 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,resilience4j-spring-boot2,1.7.1,Risky,Vulnerability,High,Version 1.7.1 is affected by CVE-2025-10189 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,spring-boot-starter-cache,2.7.5,Risky,Vulnerability,High,Version 2.7.5 is affected by CVE-2025-10190 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,caffeine,3.1.2,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10166 (severity: High). Risk is inherited through the dependency chain.
+APP-001,spring-hateoas,1.5.4,Risky,Vulnerability,High,Version 1.5.4 is affected by CVE-2025-10191 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,mapstruct,1.5.3,Risky,Vulnerability,High,Version 1.5.3 is affected by CVE-2025-10192 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,lombok,1.18.24,Risky,Vulnerability,High,Version 1.18.24 is affected by CVE-2025-10193 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-001,spring-cloud-starter-sleuth,3.1.5,Risky,Unmaintained,Low,Library spring-cloud-starter-sleuth has not received updates in over 2 years (last updated: 2023-06-01). May contain unpatched security issues.
+APP-001,spring-cloud-function-context,3.2.2,Risky,Transitive,Critical,Transitive dependency affected by CVE-2022-22963 (severity: Critical). Risk is inherited through the dependency chain.
+APP-001,spring-expression,5.3.23,Risky,Transitive,Medium,Transitive dependency affected by CVE-2023-20863 (severity: Medium). Risk is inherited through the dependency chain.
+APP-002,react,18.2.0,Risky,Vulnerability,High,Version 18.2.0 is affected by CVE-2025-10194 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,react-dom,18.2.0,Risky,Vulnerability,High,Version 18.2.0 is affected by CVE-2025-10195 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,react-router-dom,6.8.2,Risky,Vulnerability,High,Version 6.8.2 is affected by CVE-2025-10196 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,axios,0.21.1,Risky,Vulnerability,High,Version 0.21.1 is affected by CVE-2021-3749 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,lodash,4.17.20,Risky,Vulnerability,High,Version 4.17.20 is affected by CVE-2021-23337 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,moment,2.29.1,Risky,Vulnerability,High,Version 2.29.1 is affected by CVE-2022-24785 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,express,4.17.1,Risky,Vulnerability,High,Version 4.17.1 is affected by CVE-2022-24999 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,jsonwebtoken,8.5.1,Risky,Vulnerability,Critical,Version 8.5.1 is affected by CVE-2022-23529 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-002,node-fetch,2.6.5,Risky,Vulnerability,Medium,Version 2.6.5 is affected by CVE-2022-0235 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-002,semver,5.7.1,Risky,Vulnerability,High,Version 5.7.1 is affected by CVE-2022-25883 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,follow-redirects,1.14.8,Risky,Transitive,Medium,Transitive dependency affected by CVE-2022-0536 (severity: Medium). Risk is inherited through the dependency chain.
+APP-002,minimist,1.2.5,Risky,Transitive,Critical,Transitive dependency affected by CVE-2021-44906 (severity: Critical). Risk is inherited through the dependency chain.
+APP-002,word-wrap,1.2.3,Risky,Transitive,High,Transitive dependency affected by CVE-2023-26115 (severity: High). Risk is inherited through the dependency chain.
+APP-002,webpack,5.74.0,Risky,Vulnerability,High,Version 5.74.0 is affected by CVE-2025-10197 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,babel-traverse,7.20.12,Risky,Transitive,Critical,Transitive dependency affected by CVE-2023-45133 (severity: Critical). Risk is inherited through the dependency chain.
+APP-002,typescript,4.9.4,Risky,Vulnerability,High,Version 4.9.4 is affected by CVE-2025-10198 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,eslint,8.32.0,Risky,Vulnerability,High,Version 8.32.0 is affected by CVE-2025-10199 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,prettier,2.8.3,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-002,jest,29.3.1,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-002,dotenv,16.0.3,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-002,uuid,9.0.0,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-002,date-fns,2.29.3,Risky,License,Medium,AGPL-3.0 license requires network services utilizing this code to open-source their entire codebase.
+APP-002,tailwindcss,3.2.7,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-002,vite,4.0.4,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-002,chart.js,4.2.0,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-002,redux,4.2.1,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-002,react-query,3.39.3,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-002,formik,2.2.9,Risky,Unmaintained,Low,Library formik has not received updates in over 2 years (last updated: 2022-09-23). May contain unpatched security issues.
+APP-002,yup,1.0.0,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-002,zod,3.20.2,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-002,socket.io-client,4.5.4,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-002,i18next,22.4.9,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-002,react-i18next,12.1.5,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-002,storybook,7.0.0,Risky,License,Medium,AGPL-3.0 license requires network services utilizing this code to open-source their entire codebase.
+APP-002,pg,8.9.0,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-002,pg-pool,3.6.0,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10167 (severity: High). Risk is inherited through the dependency chain.
+APP-002,serialize-javascript,3.1.0,Risky,Vulnerability,High,Version 3.1.0 is affected by CVE-2020-7660 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,handlebars,4.7.6,Risky,Transitive,Critical,Transitive dependency affected by CVE-2021-23369 (severity: Critical). Risk is inherited through the dependency chain.
+APP-002,minimatch,3.0.4,Risky,Vulnerability,High,Version 3.0.4 is affected by CVE-2022-3517 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,glob-parent,5.1.1,Risky,Transitive,High,Transitive dependency affected by CVE-2020-28469 (severity: High). Risk is inherited through the dependency chain.
+APP-002,json5,2.2.1,Risky,Vulnerability,High,Version 2.2.1 is affected by CVE-2022-46175 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,ws,7.4.5,Risky,Vulnerability,High,Version 7.4.5 is affected by CVE-2021-32640 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-002,ip,1.1.8,Risky,Unmaintained,Low,Library ip has not received updates in over 2 years (last updated: 2022-01-01). May contain unpatched security issues.
+APP-002,nconf,0.12.0,Risky,Unmaintained,Low,Library nconf has not received updates in over 2 years (last updated: 2022-04-14). May contain unpatched security issues.
+APP-002,async,2.6.3,Risky,Unmaintained,Low,Library async has not received updates in over 2 years (last updated: 2023-01-01). May contain unpatched security issues.
+APP-002,rimraf,3.0.2,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-002,cross-env,7.0.3,Risky,Unmaintained,Low,Library cross-env has not received updates in over 2 years (last updated: 2022-01-01). May contain unpatched security issues.
+APP-002,morgan,1.10.0,Risky,Unmaintained,Low,Library morgan has not received updates in over 2 years (last updated: 2021-06-01). May contain unpatched security issues.
+APP-002,compression,1.7.4,Risky,Unmaintained,Low,Library compression has not received updates in over 2 years (last updated: 2019-03-01). May contain unpatched security issues.
+APP-002,cookie-parser,1.4.6,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-003,Django,3.2.8,Risky,Vulnerability,Critical,Version 3.2.8 is affected by CVE-2022-28347 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-003,djangorestframework,3.14.0,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-003,celery,5.2.7,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-003,redis,4.3.4,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-003,psycopg2,2.9.5,Risky,License,Medium,LGPL-3.0 copyleft may conflict with proprietary commercial distribution.
+APP-003,requests,2.25.0,Risky,Vulnerability,Medium,Version 2.25.0 is affected by CVE-2023-32681 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-003,Pillow,8.2.0,Risky,Vulnerability,Critical,Version 8.2.0 is affected by CVE-2021-25293 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-003,PyYAML,5.3.1,Risky,Vulnerability,Critical,Version 5.3.1 is affected by CVE-2020-14343 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-003,cryptography,3.3.1,Risky,Vulnerability,Medium,Version 3.3.1 is affected by CVE-2023-23931 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-003,sqlparse,0.4.3,Risky,Vulnerability,High,Version 0.4.3 is affected by CVE-2023-30608 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-003,aiohttp,3.7.4,Risky,Vulnerability,Medium,Version 3.7.4 is affected by CVE-2021-21330 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-003,pydantic,1.10.5,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-003,boto3,1.26.90,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-003,botocore,1.29.90,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10168 (severity: High). Risk is inherited through the dependency chain.
+APP-003,urllib3,1.26.12,Risky,Vulnerability,High,Version 1.26.12 is affected by CVE-2023-43804 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-003,setuptools,65.4.0,Risky,Vulnerability,Medium,Version 65.4.0 is affected by CVE-2022-40897 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-003,numpy,1.24.2,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-003,pandas,1.5.3,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-003,gunicorn,20.1.0,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-003,whitenoise,6.3.0,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-003,django-cors-headers,3.14.0,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-003,django-filter,22.1,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-003,django-environ,0.9.0,Risky,License,Medium,AGPL-3.0 license requires network services utilizing this code to open-source their entire codebase.
+APP-003,dj-database-url,1.2.0,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-003,pytz,2022.7.1,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10169 (severity: High). Risk is inherited through the dependency chain.
+APP-003,six,1.16.0,Risky,Unmaintained,Low,Library six has not received updates in over 2 years (last updated: 2021-04-14). May contain unpatched security issues.
+APP-003,certifi,2022.12.7,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10170 (severity: High). Risk is inherited through the dependency chain.
+APP-003,charset-normalizer,3.0.1,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10171 (severity: High). Risk is inherited through the dependency chain.
+APP-003,idna,3.4.0,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10172 (severity: High). Risk is inherited through the dependency chain.
+APP-003,click,8.1.3,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10173 (severity: High). Risk is inherited through the dependency chain.
+APP-003,kombu,5.2.4,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10174 (severity: High). Risk is inherited through the dependency chain.
+APP-003,vine,5.0.0,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10175 (severity: High). Risk is inherited through the dependency chain.
+APP-003,billiard,3.6.4.0,Risky,Transitive,High,Transitive dependency affected by CVE-2025-10176 (severity: High). Risk is inherited through the dependency chain.
+APP-003,amqp,5.1.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-003,django-celery-beat,2.4.0,Risky,License,Medium,AGPL-3.0 license requires network services utilizing this code to open-source their entire codebase.
+APP-003,django-celery-results,2.4.0,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-003,factory-boy,3.2.1,Risky,License,Medium,AGPL-3.0 license requires network services utilizing this code to open-source their entire codebase.
+APP-003,Faker,15.3.4,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-003,coverage,7.1.0,Risky,License,Medium,GPL-3.0 copyleft license is incompatible with proprietary commercial applications.
+APP-003,pytest-django,4.5.2,Risky,License,Medium,"License information is missing or UNKNOWN, posing compliance and legal risks."
+APP-003,model-bakery,1.10.1,Risky,License,Medium,AGPL-3.0 license requires network services utilizing this code to open-source their entire codebase.
+APP-003,Markdown,3.4.1,Risky,License,Medium,AGPL-3.0 license requires network services utilizing this code to open-source their entire codebase.
+APP-003,ipython,7.31.1,Risky,Unmaintained,Low,Library ipython has not received updates in over 2 years (last updated: 2024-02-23). May contain unpatched security issues.
+APP-003,PyJWT,1.7.1,Risky,Vulnerability,High,Version 1.7.1 is affected by CVE-2022-29217 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-003,python-dateutil,2.8.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-003,packaging,21.3.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-003,py,1.11.0,Risky,Vulnerability,High,Version 1.11.0 is affected by CVE-2022-42969 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-003,asgiref,3.6.0,Risky,Unmaintained,Low,Library asgiref has not received updates in over 2 years (last updated: 2024-03-01). May contain unpatched security issues.
+APP-003,sqlalchemy,1.4.18,Risky,Transitive,High,Transitive dependency affected by CVE-2019-7164 (severity: High). Risk is inherited through the dependency chain.
+APP-003,pyOpenSSL,22.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,Microsoft.AspNetCore.Mvc,6.0.10,Risky,License,Medium,AGPL-3.0 license requires network services utilizing this code to open-source their entire codebase.
+APP-004,Microsoft.AspNetCore.Http,6.0.10,Risky,Vulnerability,High,Version 6.0.10 is affected by CVE-2023-49080 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-004,Microsoft.AspNetCore.Authentication.JwtBearer,6.0.10,Risky,Vulnerability,High,Version 6.0.10 is affected by CVE-2023-24936 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-004,Newtonsoft.Json,12.0.3,Risky,Vulnerability,High,Version 12.0.3 is affected by CVE-2024-21907 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-004,Microsoft.AspNetCore.Authentication.OpenIdConnect,7.0.8,Risky,Vulnerability,Critical,Version 7.0.8 is affected by CVE-2023-33170 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-004,System.Security.Cryptography.Xml,6.0.0,Risky,Vulnerability,Medium,Version 6.0.0 is affected by CVE-2022-34716 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-004,Microsoft.EntityFrameworkCore.SqlServer,6.0.10,Risky,Unmaintained,Low,Library Microsoft.EntityFrameworkCore.SqlServer has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,Microsoft.EntityFrameworkCore,6.0.10,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,AutoMapper,12.0.1,Risky,Unmaintained,Low,Library AutoMapper has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,AutoMapper.Extensions.Microsoft.DependencyInjection,12.0.1,Risky,Unmaintained,Low,Library AutoMapper.Extensions.Microsoft.DependencyInjection has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,Serilog,2.12.0,Risky,Unmaintained,Low,Library Serilog has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,Serilog.AspNetCore,6.1.0,Risky,Unmaintained,Low,Library Serilog.AspNetCore has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,Serilog.Sinks.ApplicationInsights,4.0.0,Risky,Unmaintained,Low,Library Serilog.Sinks.ApplicationInsights has not received updates in over 2 years (last updated: 2023-07-01). May contain unpatched security issues.
+APP-004,Microsoft.ApplicationInsights.AspNetCore,2.21.0,Risky,Unmaintained,Low,Library Microsoft.ApplicationInsights.AspNetCore has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,Azure.Identity,1.8.2,Risky,Unmaintained,Low,Library Azure.Identity has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,Azure.Security.KeyVault.Secrets,4.4.0,Risky,Unmaintained,Low,Library Azure.Security.KeyVault.Secrets has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,Azure.Storage.Blobs,12.14.1,Risky,Unmaintained,Low,Library Azure.Storage.Blobs has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,FluentValidation,11.4.0,Risky,Unmaintained,Low,Library FluentValidation has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,Dapper,2.0.123,Risky,Unmaintained,Low,Library Dapper has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,Microsoft.Data.SqlClient,5.0.2,Risky,Vulnerability,Medium,Version 5.0.2 is affected by CVE-2022-41064 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-004,StackExchange.Redis,2.6.96,Risky,Unmaintained,Low,Library StackExchange.Redis has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,MediatR,12.0.1,Risky,Unmaintained,Low,Library MediatR has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,Swashbuckle.AspNetCore,6.5.0,Risky,Unmaintained,Low,Library Swashbuckle.AspNetCore has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,Microsoft.AspNetCore.Http.Connections,3.1.24,Risky,Vulnerability,High,Version 3.1.24 is affected by CVE-2022-29117 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-004,Polly,7.2.3,Risky,Unmaintained,Low,Library Polly has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,NodaTime,3.1.9,Risky,Unmaintained,Low,Library NodaTime has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,Humanizer,2.14.1,Risky,Unmaintained,Low,Library Humanizer has not received updates in over 2 years (last updated: 2022-01-01). May contain unpatched security issues.
+APP-004,CsvHelper,30.0.1,Risky,License,Medium,MS-PL is a weak copyleft license that may impose distribution obligations.
+APP-004,Bogus,34.0.2,Risky,Unmaintained,Low,Library Bogus has not received updates in over 2 years (last updated: 2023-04-12). May contain unpatched security issues.
+APP-004,xunit,2.4.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,Moq,4.18.4,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,FluentAssertions,6.10.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,Microsoft.Extensions.Caching.StackExchangeRedis,6.0.10,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,Microsoft.Identity.Web,1.25.10,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,System.Text.RegularExpressions,4.3.1,Risky,Vulnerability,High,Version 4.3.1 is affected by CVE-2024-43483 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-004,ClosedXML,0.102.1,Risky,Unmaintained,Low,Library ClosedXML has not received updates in over 2 years (last updated: 2023-09-01). May contain unpatched security issues.
+APP-004,iTextSharp,5.5.13,Risky,License,Medium,AGPL-3.0 is incompatible with proprietary commercial software – requires open-sourcing the application.
+APP-004,System.Text.Json,7.0.3,Risky,Vulnerability,High,Version 7.0.3 is affected by CVE-2024-30105 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-004,Microsoft.IdentityModel.JsonWebTokens,7.0.3,Risky,Vulnerability,Medium,Version 7.0.3 is affected by CVE-2024-21319 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-004,Hangfire,1.8.6,Risky,License,Medium,LGPL-3.0 requires making modifications available under the same license.
+APP-004,DocumentFormat.OpenXml,2.20.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,Quartz.NET,3.6.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,System.Formats.Asn1,7.0.0,Risky,Transitive,High,Transitive dependency affected by CVE-2024-38095 (severity: High). Risk is inherited through the dependency chain.
+APP-004,Microsoft.Extensions.Logging,6.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,Microsoft.Extensions.DependencyInjection,6.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,Microsoft.Extensions.Configuration,6.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,Npgsql,6.0.11,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-004,EPPlus,5.8.14,Risky,License,Medium,Commercial use requires a paid license – may violate terms if used without license in enterprise context.
+APP-004,Microsoft.AspNetCore.SignalR,1.1.0,Risky,Transitive,High,Transitive dependency affected by CVE-2022-29117 (severity: High). Risk is inherited through the dependency chain.
+APP-004,Newtonsoft.Json.Bson,1.0.2,Risky,Unmaintained,Low,Library Newtonsoft.Json.Bson has not received updates in over 2 years (last updated: 2021-01-01). May contain unpatched security issues.
+APP-005,pyspark,3.3.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,numpy,1.23.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,pandas,1.5.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,scipy,1.10.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,scikit-learn,1.2.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,matplotlib,3.7.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,Pillow,9.4.0,Risky,Vulnerability,High,Version 9.4.0 is affected by CVE-2023-44271 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-005,kafka-python,2.0.2,Risky,Unmaintained,Low,Library kafka-python has not received updates in over 2 years (last updated: 2022-01-01). May contain unpatched security issues.
+APP-005,confluent-kafka,2.0.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,boto3,1.26.90,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,s3fs,2023.1.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,pyarrow,11.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,fastparquet,2023.2.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,delta-spark,2.3.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,mlflow,2.1.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,optuna,3.1.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,xgboost,1.7.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,lightgbm,3.3.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,plotly,5.13.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,PyYAML,5.4.1,Risky,Vulnerability,Critical,Version 5.4.1 is affected by CVE-2020-14343 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-005,requests,2.28.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,urllib3,1.26.14,Risky,Transitive,High,Transitive dependency affected by CVE-2023-43804 (severity: High). Risk is inherited through the dependency chain.
+APP-005,cryptography,38.0.4,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,paramiko,2.12.0,Risky,License,Medium,LGPL-2.1 requires making modifications to this library available in source form.
+APP-005,fabric,2.7.1,Risky,Unmaintained,Low,Library fabric has not received updates in over 2 years (last updated: 2023-08-01). May contain unpatched security issues.
+APP-005,ipython,8.10.0,Risky,Vulnerability,High,Version 8.10.0 is affected by CVE-2022-21699 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-005,jupyter,1.0.0,Risky,Unmaintained,Low,Library jupyter has not received updates in over 2 years (last updated: 2022-06-01). May contain unpatched security issues.
+APP-005,trino,0.320.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,great-expectations,0.16.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,dask,2023.1.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,distributed,2023.1.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,networkx,3.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,statsmodels,0.13.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,sqlalchemy,1.4.46,Risky,Transitive,High,Transitive dependency affected by CVE-2019-7164 (severity: High). Risk is inherited through the dependency chain.
+APP-005,alembic,1.9.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,pyspark-stubs,3.0.0.post3,Risky,Unmaintained,Low,Library pyspark-stubs has not received updates in over 2 years (last updated: 2021-11-01). May contain unpatched security issues.
+APP-005,setuptools,65.7.0,Risky,Transitive,Medium,Transitive dependency affected by CVE-2022-40897 (severity: Medium). Risk is inherited through the dependency chain.
+APP-005,py4j,0.10.9.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,attrs,22.2.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,typing-extensions,4.5.0,Risky,License,Medium,Missing SPDX license identifier – commercial use cannot be verified.
+APP-005,multiprocess,0.70.14,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,pydantic,1.10.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,tenacity,8.2.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,pyOpenSSL,22.1.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,grpcio,1.51.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,protobuf,4.22.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,joblib,1.2.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,fsspec,2023.1.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,PyJWT,2.4.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-005,pip,23.0.1,Risky,Unmaintained,Low,Library pip has not received updates in over 2 years (last updated: 2024-02-03). May contain unpatched security issues.
+APP-006,github.com/gin-gonic/gin,1.7.4,Risky,Vulnerability,Medium,Version 1.7.4 is affected by CVE-2023-29401 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-006,golang.org/x/net,0.1.0,Risky,Vulnerability,High,Version 0.1.0 is affected by CVE-2022-41723 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-006,golang.org/x/sys,0.0.24,Risky,Vulnerability,Medium,Version 0.0.24 is affected by CVE-2022-29526 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-006,github.com/gorilla/mux,1.8.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/gorilla/websocket,1.4.2,Risky,Vulnerability,High,Version 1.4.2 is affected by CVE-2020-27813 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-006,github.com/spf13/viper,1.14.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/spf13/cobra,1.6.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/sirupsen/logrus,1.9.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/hashicorp/consul/api,1.18.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/go-redis/redis/v9,9.0.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,google.golang.org/grpc,1.52.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/stretchr/testify,1.8.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/prometheus/client_golang,1.14.0,Risky,Vulnerability,High,Version 1.14.0 is affected by CVE-2022-21698 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-006,go.opentelemetry.io/otel,1.11.2,Risky,Vulnerability,High,Version 1.11.2 is affected by CVE-2023-45142 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-006,go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc,0.36.4,Risky,Vulnerability,High,Version 0.36.4 is affected by CVE-2023-47108 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-006,golang.org/x/net,0.14.0,Risky,Vulnerability,High,Version 0.14.0 is affected by CVE-2023-44487 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-006,github.com/gorm-io/gorm,1.25.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/dgrijalva/jwt-go,3.2.0+incompatible,Risky,Unmaintained,Low,Library github.com/dgrijalva/jwt-go has not received updates in over 2 years (last updated: 2021-01-01). May contain unpatched security issues.
+APP-006,github.com/golang-jwt/jwt,3.2.2+incompatible,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/google/uuid,1.3.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/hashicorp/go-retryablehttp,0.7.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/rs/zerolog,1.28.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/pkg/errors,0.9.1,Risky,Unmaintained,Low,Library github.com/pkg/errors has not received updates in over 2 years (last updated: 2021-02-01). May contain unpatched security issues.
+APP-006,golang.org/x/crypto,0.6.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/shopspring/decimal,1.3.1,Risky,Unmaintained,Low,Library github.com/shopspring/decimal has not received updates in over 2 years (last updated: 2022-08-01). May contain unpatched security issues.
+APP-006,github.com/go-playground/validator/v10,10.11.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/cenkalti/backoff/v4,4.2.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/mitchellh/mapstructure,1.5.0,Risky,Unmaintained,Low,Library github.com/mitchellh/mapstructure has not received updates in over 2 years (last updated: 2022-04-29). May contain unpatched security issues.
+APP-006,github.com/gin-contrib/sse,0.1.0,Risky,Unmaintained,Low,Library github.com/gin-contrib/sse has not received updates in over 2 years (last updated: 2019-11-01). May contain unpatched security issues.
+APP-006,golang-stdlib,1.21.3,Risky,Vulnerability,Critical,Version 1.21.3 is affected by CVE-2024-24790 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-006,github.com/ugorji/go/codec,1.2.11,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/jackc/pgx/v5,5.3.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/go-sql-driver/mysql,1.7.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/lib/pq,1.10.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/jmoiron/sqlx,1.3.5,Risky,Unmaintained,Low,Library github.com/jmoiron/sqlx has not received updates in over 2 years (last updated: 2022-01-14). May contain unpatched security issues.
+APP-006,github.com/go-chi/chi/v5,5.0.8,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/spf13/cast,1.5.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/hashicorp/go-cleanhttp,0.5.2,Risky,Unmaintained,Low,Library github.com/hashicorp/go-cleanhttp has not received updates in over 2 years (last updated: 2021-08-01). May contain unpatched security issues.
+APP-006,github.com/andybalholm/brotli,1.0.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/klauspost/compress,1.15.15,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,golang.org/x/text,0.7.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/bytedance/sonic,1.8.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/chenzhuoyu/base64x,0.0.0-20221115062448,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/twitchyliquid64/golang-asm,0.15.1,Risky,Unmaintained,Low,Library github.com/twitchyliquid64/golang-asm has not received updates in over 2 years (last updated: 2020-10-01). May contain unpatched security issues.
+APP-006,github.com/leodido/go-urn,1.2.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/pelletier/go-toml/v2,2.0.6,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/subosito/gotenv,1.4.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/fsnotify/fsnotify,1.6.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-006,github.com/magiconair/properties,1.8.7,Risky,Unmaintained,Low,Library github.com/magiconair/properties has not received updates in over 2 years (last updated: 2022-06-01). May contain unpatched security issues.
+APP-006,github.com/spf13/pflag,1.0.5,Risky,Unmaintained,Low,Library github.com/spf13/pflag has not received updates in over 2 years (last updated: 2021-04-23). May contain unpatched security issues.
+APP-007,express,4.17.3,Risky,Vulnerability,High,Version 4.17.3 is affected by CVE-2022-24999 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-007,amqplib,0.10.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,mongoose,6.9.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,ioredis,5.3.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,nodemailer,6.9.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,twilio,4.7.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,firebase-admin,11.5.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,bull,4.10.4,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,moment,2.29.3,Risky,Vulnerability,High,Version 2.29.3 is affected by CVE-2022-31129 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-007,lodash,4.17.21,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,axios,1.5.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,jsonwebtoken,8.5.1,Risky,Vulnerability,Critical,Version 8.5.1 is affected by CVE-2022-23529 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-007,dotenv,16.0.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,uuid,9.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,cors,2.8.5,Risky,Unmaintained,Low,Library cors has not received updates in over 2 years (last updated: 2020-04-01). May contain unpatched security issues.
+APP-007,helmet,7.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,morgan,1.10.0,Risky,Unmaintained,Low,Library morgan has not received updates in over 2 years (last updated: 2021-06-01). May contain unpatched security issues.
+APP-007,body-parser,1.20.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,compression,1.7.4,Risky,Unmaintained,Low,Library compression has not received updates in over 2 years (last updated: 2019-03-01). May contain unpatched security issues.
+APP-007,pug,3.0.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,ejs,3.1.9,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,handlebars,4.7.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,node-schedule,2.1.1,Risky,Unmaintained,Low,Library node-schedule has not received updates in over 2 years (last updated: 2022-11-01). May contain unpatched security issues.
+APP-007,winston,3.8.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,pino,8.11.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,jest,29.4.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,supertest,6.3.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,nodemon,3.0.2,Risky,Vulnerability,Medium,Version 3.0.2 is affected by CVE-2023-49064 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-007,semver,7.3.8,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,follow-redirects,1.15.3,Risky,Transitive,Medium,Transitive dependency affected by CVE-2023-26159 (severity: Medium). Risk is inherited through the dependency chain.
+APP-007,minimist,1.2.6,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,tough-cookie,4.1.2,Risky,Transitive,Critical,Transitive dependency affected by CVE-2023-26136 (severity: Critical). Risk is inherited through the dependency chain.
+APP-007,ws,8.12.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,async,3.2.4,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,mime,3.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,on-finished,2.4.1,Risky,Unmaintained,Low,Library on-finished has not received updates in over 2 years (last updated: 2022-01-01). May contain unpatched security issues.
+APP-007,path-to-regexp,0.1.7,Risky,Unmaintained,Low,Library path-to-regexp has not received updates in over 2 years (last updated: 2022-01-01). May contain unpatched security issues.
+APP-007,depd,2.0.0,Risky,Unmaintained,Low,Library depd has not received updates in over 2 years (last updated: 2021-12-19). May contain unpatched security issues.
+APP-007,accepts,1.3.8,Risky,Unmaintained,Low,Library accepts has not received updates in over 2 years (last updated: 2021-07-01). May contain unpatched security issues.
+APP-007,finalhandler,1.2.0,Risky,Unmaintained,Low,Library finalhandler has not received updates in over 2 years (last updated: 2022-07-15). May contain unpatched security issues.
+APP-007,protobufjs,7.2.2,Risky,Vulnerability,High,Version 7.2.2 is affected by CVE-2022-25878 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-007,ip,2.0.0,Risky,Transitive,Critical,Transitive dependency affected by CVE-2023-42282 (severity: Critical). Risk is inherited through the dependency chain.
+APP-007,glob-parent,6.0.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,chokidar,3.5.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-007,terser,5.14.1,Risky,Vulnerability,High,Version 5.14.1 is affected by CVE-2022-25858 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-007,loader-utils,2.0.2,Risky,Vulnerability,Critical,Version 2.0.2 is affected by CVE-2022-37601 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-007,ssri,8.0.0,Risky,Transitive,High,Transitive dependency affected by CVE-2021-27290 (severity: High). Risk is inherited through the dependency chain.
+APP-007,json-schema,0.4.0,Risky,License,Medium,Unknown license – cannot verify commercial use rights.
+APP-007,ansi-colors,4.1.3,Risky,Unmaintained,Low,Library ansi-colors has not received updates in over 2 years (last updated: 2022-01-01). May contain unpatched security issues.
+APP-007,nconf,0.11.0,Risky,Unmaintained,Low,Library nconf has not received updates in over 2 years (last updated: 2021-06-01). May contain unpatched security issues.
+APP-008,spring-boot-starter-security,3.0.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-security-core,6.0.3,Risky,Vulnerability,Critical,Version 6.0.3 is affected by CVE-2023-34035 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-008,spring-security-web,5.7.4,Risky,Vulnerability,Critical,Version 5.7.4 is affected by CVE-2022-31692 (CVSS severity: Critical). Upgrade to the latest version to remediate.
+APP-008,spring-boot-starter-oauth2-resource-server,3.0.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-boot-starter-oauth2-client,3.0.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-core,6.0.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,nimbus-jose-jwt,9.30.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-vault-core,2.3.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,vault-java-driver,5.1.0,Risky,Unmaintained,Low,Library vault-java-driver has not received updates in over 2 years (last updated: 2021-09-01). May contain unpatched security issues.
+APP-008,postgresql,42.5.4,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-data-jpa,3.0.4,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,hibernate-core,6.1.7,Risky,License,Medium,LGPL-2.1 copyleft requires sharing source code modifications in commercial applications.
+APP-008,jackson-databind,2.14.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,log4j-core,2.20.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,HikariCP,5.0.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-boot-starter-actuator,3.0.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,micrometer-core,1.10.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-session-data-redis,3.0.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,lettuce-core,6.2.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,jjwt-api,0.11.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,jjwt-impl,0.11.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,jjwt-jackson,0.11.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-boot-starter-data-jpa,3.0.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-retry,2.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,resilience4j-spring-boot3,2.0.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,snakeyaml,2.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,commons-lang3,3.12.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,guava,32.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,bcrypt,0.10.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-security-test,6.0.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,lombok,1.18.26,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,mapstruct,1.5.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-boot-starter-validation,3.0.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-security-crypto,6.0.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-tx,6.0.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-aop,6.0.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-context,6.0.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-beans,6.0.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,slf4j-api,2.0.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,tomcat-embed-core,10.1.7,Risky,Transitive,High,Transitive dependency affected by CVE-2023-44487 (severity: High). Risk is inherited through the dependency chain.
+APP-008,commons-text,1.10.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,logback-classic,1.4.6,Risky,License,Medium,LGPL-2.1 copyleft requires modifications to be open-sourced.
+APP-008,spring-web,6.0.7,Risky,Transitive,High,Transitive dependency affected by CVE-2024-22243 (severity: High). Risk is inherited through the dependency chain.
+APP-008,commons-collections4,4.4.0,Risky,Unmaintained,Low,Library commons-collections4 has not received updates in over 2 years (last updated: 2019-11-01). May contain unpatched security issues.
+APP-008,netty-codec,4.1.86,Risky,Vulnerability,High,Version 4.1.86 is affected by CVE-2021-37136 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-008,spring-security-config,6.0.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-security-oauth2-core,6.0.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,spring-security-oauth2-jose,6.0.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-008,com.google.guava:guava,30.0-jre,Risky,Transitive,High,Transitive dependency affected by CVE-2023-2976 (severity: High). Risk is inherited through the dependency chain.
+APP-008,snakeyaml,1.33.0,Risky,Transitive,Critical,Transitive dependency affected by CVE-2022-1471 (severity: Critical). Risk is inherited through the dependency chain.
+APP-009,fastapi,0.95.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,uvicorn,0.21.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,pydantic,1.10.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,SQLAlchemy,2.0.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,alembic,1.10.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,asyncpg,0.27.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,boto3,1.26.100,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,pandas,2.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,openpyxl,3.1.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,reportlab,3.6.12,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,Pillow,9.5.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,requests,2.29.0,Risky,Vulnerability,Medium,Version 2.29.0 is affected by CVE-2023-32681 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-009,PyJWT,2.6.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,cryptography,40.0.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,python-multipart,0.0.6,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,httpx,0.24.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,celery,5.3.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,redis,4.5.4,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,jinja2,3.1.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,weasyprint,58.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,PyYAML,6.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,gunicorn,20.1.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,pytest,7.3.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,pytest-asyncio,0.21.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,httpretty,1.1.4,Risky,Unmaintained,Low,Library httpretty has not received updates in over 2 years (last updated: 2023-01-01). May contain unpatched security issues.
+APP-009,bleach,6.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,python-docx,0.8.11,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,xlsxwriter,3.0.9,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,paramiko,3.1.0,Risky,License,Medium,LGPL-2.1 requires making modifications to this library available in source form.
+APP-009,Pygments,2.15.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,aiofiles,23.1.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,chardet,5.1.0,Risky,License,Medium,LGPL-2.1 copyleft may conflict with proprietary commercial distribution.
+APP-009,urllib3,1.26.18,Risky,Transitive,High,Transitive dependency affected by CVE-2023-43804 (severity: High). Risk is inherited through the dependency chain.
+APP-009,certifi,2023.5.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,python-dotenv,1.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,starlette,0.27.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,click,8.1.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,pytz,2023.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,six,1.16.0,Risky,Unmaintained,Low,Library six has not received updates in over 2 years (last updated: 2021-04-14). May contain unpatched security issues.
+APP-009,idna,3.4.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,packaging,23.1.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,attrs,23.1.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,anyio,3.7.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,sniffio,1.3.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,typing-extensions,4.6.3,Risky,License,Medium,Missing SPDX license identifier – commercial use cannot be verified.
+APP-009,setuptools,67.7.2,Risky,Transitive,Medium,Transitive dependency affected by CVE-2022-40897 (severity: Medium). Risk is inherited through the dependency chain.
+APP-009,h11,0.14.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,greenlet,2.0.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-009,PyPDF2,3.0.1,Risky,Unmaintained,Low,Library PyPDF2 has not received updates in over 2 years (last updated: 2023-03-01). May contain unpatched security issues.
+APP-009,UNKNOWN-analytics-lib,1.2.0,Risky,License,Medium,No license information found – cannot verify commercial use rights.
+APP-010,express,4.18.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,mongoose,7.2.4,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,firebase-admin,11.10.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,jsonwebtoken,9.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,axios,1.6.0,Risky,Vulnerability,Medium,Version 1.6.0 is affected by CVE-2023-45857 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-010,lodash,4.17.21,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,dotenv,16.3.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,multer,1.4.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,sharp,0.32.6,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,uuid,9.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,joi,17.9.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,helmet,7.1.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,cors,2.8.5,Risky,Unmaintained,Low,Library cors has not received updates in over 2 years (last updated: 2020-04-01). May contain unpatched security issues.
+APP-010,rate-limiter-flexible,2.4.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,compression,1.7.4,Risky,Unmaintained,Low,Library compression has not received updates in over 2 years (last updated: 2019-03-01). May contain unpatched security issues.
+APP-010,morgan,1.10.0,Risky,Unmaintained,Low,Library morgan has not received updates in over 2 years (last updated: 2021-06-01). May contain unpatched security issues.
+APP-010,pino,8.15.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,nodemailer,6.9.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,twilio,4.19.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,stripe,12.18.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,socket.io,4.6.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,redis,4.6.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,ioredis,5.3.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,jest,29.6.4,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,supertest,6.3.4,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,eslint,8.49.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,nodemon,3.0.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,bcryptjs,2.4.3,Risky,Unmaintained,Low,Library bcryptjs has not received updates in over 2 years (last updated: 2021-01-01). May contain unpatched security issues.
+APP-010,passport,0.6.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,passport-jwt,4.0.1,Risky,Unmaintained,Low,Library passport-jwt has not received updates in over 2 years (last updated: 2022-10-01). May contain unpatched security issues.
+APP-010,passport-local,1.0.0,Risky,Unmaintained,Low,Library passport-local has not received updates in over 2 years (last updated: 2017-08-25). May contain unpatched security issues.
+APP-010,semver,7.5.1,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,follow-redirects,1.15.4,Risky,Vulnerability,Medium,Version 1.15.4 is affected by CVE-2023-26159 (CVSS severity: Medium). Upgrade to the latest version to remediate.
+APP-010,minimist,1.2.7,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,tough-cookie,4.1.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,ip,1.1.9,Risky,Transitive,Critical,Transitive dependency affected by CVE-2023-42282 (severity: Critical). Risk is inherited through the dependency chain.
+APP-010,glob-parent,6.0.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,ws,8.14.2,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,async,3.2.5,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,mime,3.0.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,busboy,1.6.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,cookie,0.5.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,methods,1.1.2,Risky,Unmaintained,Low,Library methods has not received updates in over 2 years (last updated: 2021-01-01). May contain unpatched security issues.
+APP-010,vary,1.1.2,Risky,Unmaintained,Low,Library vary has not received updates in over 2 years (last updated: 2017-09-23). May contain unpatched security issues.
+APP-010,negotiator,0.6.3,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,bson,5.4.0,Safe,None,None,"No known vulnerabilities, license issues, or maintenance concerns detected."
+APP-010,sparse-bitfield,3.0.3,Risky,Unmaintained,Low,Library sparse-bitfield has not received updates in over 2 years (last updated: 2020-01-01). May contain unpatched security issues.
+APP-010,get-func-name,2.0.1,Risky,Vulnerability,High,Version 2.0.1 is affected by CVE-2023-43646 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-010,loader-utils,3.2.0,Risky,Vulnerability,High,Version 3.2.0 is affected by CVE-2022-37603 (CVSS severity: High). Upgrade to the latest version to remediate.
+APP-010,json-schema,0.4.0,Risky,License,Medium,Unknown license – cannot verify commercial use rights.
